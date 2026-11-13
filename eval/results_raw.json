@@ -1,0 +1,3915 @@
+{
+  "search_summary": {
+    "all_text": {
+      "recall@5": {
+        "n": 87,
+        "mean": 0.5304473206907284
+      },
+      "recall@10": {
+        "n": 87,
+        "mean": 0.6086277729482598
+      },
+      "ndcg@10": {
+        "n": 87,
+        "mean": 0.5823682713801108
+      },
+      "mrr": {
+        "n": 87,
+        "mean": 0.5962005108556833
+      }
+    },
+    "zh": {
+      "recall@5": {
+        "n": 54,
+        "mean": 0.47830731057855236
+      },
+      "recall@10": {
+        "n": 54,
+        "mean": 0.5548111837327524
+      },
+      "ndcg@10": {
+        "n": 54,
+        "mean": 0.5414941703714901
+      },
+      "mrr": {
+        "n": 54,
+        "mean": 0.5559156378600824
+      }
+    },
+    "en": {
+      "recall@5": {
+        "n": 33,
+        "mean": 0.6157673372379254
+      },
+      "recall@10": {
+        "n": 33,
+        "mean": 0.6966912825736356
+      },
+      "ndcg@10": {
+        "n": 33,
+        "mean": 0.6492531639396721
+      },
+      "mrr": {
+        "n": 33,
+        "mean": 0.6621212121212121
+      }
+    },
+    "image": {
+      "recall@5": {
+        "n": 8,
+        "mean": 0.9375
+      },
+      "recall@10": {
+        "n": 8,
+        "mean": 1.0
+      },
+      "ndcg@10": {
+        "n": 8,
+        "mean": 0.9737983099436882
+      },
+      "mrr": {
+        "n": 8,
+        "mean": 1.0
+      }
+    },
+    "filename_baseline_text": {
+      "recall@5": {
+        "n": 87,
+        "mean": 0.489413696513088
+      },
+      "recall@10": {
+        "n": 87,
+        "mean": 0.5194951543835925
+      },
+      "ndcg@10": {
+        "n": 87,
+        "mean": 0.5435008223976513
+      },
+      "mrr": {
+        "n": 87,
+        "mean": 0.5775862068965517
+      }
+    },
+    "filename_baseline_zh": {
+      "recall@5": {
+        "n": 54,
+        "mean": 0.32623456790123456
+      },
+      "recall@10": {
+        "n": 54,
+        "mean": 0.33549382716049386
+      },
+      "ndcg@10": {
+        "n": 54,
+        "mean": 0.3353506560353858
+      },
+      "mrr": {
+        "n": 54,
+        "mean": 0.375
+      }
+    },
+    "filename_baseline_en": {
+      "recall@5": {
+        "n": 33,
+        "mean": 0.7564340887870299
+      },
+      "recall@10": {
+        "n": 33,
+        "mean": 0.8205882352941176
+      },
+      "ndcg@10": {
+        "n": 33,
+        "mean": 0.8841101855359041
+      },
+      "mrr": {
+        "n": 33,
+        "mean": 0.9090909090909091
+      }
+    },
+    "n_text": 87,
+    "n_zh": 54,
+    "n_en": 33,
+    "n_image": 8,
+    "latency_ms": {
+      "n": 95,
+      "mean": 47.00589473684211,
+      "p50": 48.99,
+      "p95": 58.338,
+      "max": 71.01
+    }
+  },
+  "search_rows": [
+    {
+      "id": "zh-001",
+      "query": "一把剑",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/knife_sharp.glb",
+        "stylized_mobile:kenney:weapon/knife_smooth.glb",
+        "stylized_mobile:kenney:weapon/knifeRound_sharp.glb",
+        "stylized_mobile:kenney:weapon/knifeRound_smooth.glb",
+        "stylized_mobile:kenney:food/cooking-knife.glb",
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb",
+        "stylized_mobile:kenney:mini-forest/flag.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:castle/flag-pennant.glb",
+        "stylized_mobile:kenney:food/corn-dog.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 67.36,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-002",
+      "query": "圆形盾牌",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/pot-stew-lid.glb",
+        "stylized_mobile:kenney:mini-forest/target.glb",
+        "stylized_mobile:kenney:food/pot-lid.glb",
+        "stylized_mobile:kenney:platformer/spring.glb",
+        "stylized_mobile:kenney:food/plate-broken.glb",
+        "stylized_mobile:kenney:food/cup-saucer.glb",
+        "stylized_mobile:kenney:food/plate.glb",
+        "stylized_mobile:kenney:food/pan-stew.glb",
+        "stylized_mobile:kenney:food/cutting-board-round.glb",
+        "stylized_mobile:kenney:food/frying-pan-lid.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 47.76,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-003",
+      "query": "长方形盾牌",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cutting-board.glb",
+        "stylized_mobile:kenney:food/popsicle-stick.glb",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png",
+        "stylized_mobile:kenney:mini-forest/weapon-bow.glb",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png",
+        "stylized_mobile:kenney:ui/UI Pack/input_outline_rectangle.png",
+        "stylized_mobile:kenney:mini-dungeon/banner.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 55.61,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-004",
+      "query": "长矛",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cooking-knife.glb",
+        "stylized_mobile:kenney:food/chopstic-decorative.glb",
+        "stylized_mobile:kenney:weapon/knife_sharp.glb",
+        "stylized_mobile:kenney:food/chopstick.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb0.png",
+        "stylized_mobile:kenney:weapon/knifeRound_sharp.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:food/corn-dog.glb",
+        "stylized_mobile:kenney:weapon/knife_smooth.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 50.74,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-005",
+      "query": "一把弓",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-forest/target.glb",
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb",
+        "stylized_mobile:kenney:mini-forest/fence.glb",
+        "stylized_mobile:kenney:platformer/key.glb",
+        "stylized_mobile:kenney:food/whole-ham.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack2.png",
+        "stylized_mobile:kenney:food/turkey.glb",
+        "stylized_mobile:kenney:platformer/arrows.glb",
+        "stylized_mobile:kenney:platformer/fence-rope.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 47.72,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-006",
+      "query": "一支箭",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cooking-knife.glb",
+        "stylized_mobile:kenney:food/corn-dog.glb",
+        "stylized_mobile:kenney:food/whole-ham.glb",
+        "stylized_mobile:kenney:food/pepper.glb",
+        "stylized_mobile:kenney:food/chopstic-decorative.glb",
+        "stylized_mobile:kenney:weapon/ammo_rocketModern.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb",
+        "stylized_mobile:kenney:platformer/arrows.glb",
+        "stylized_mobile:kenney:food/lollypop.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 47.11,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-007",
+      "query": "兽人角色",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_attack0.png",
+        "stylized_mobile:kenney:mini-dungeon/character-human.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_talk.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_switch0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_side.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_robot_talk.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_hurt.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_idle.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_robot_side.png"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 58.52,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-008",
+      "query": "人类角色",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_show.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_behindBack.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_malePerson_climb0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer0.png"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 50.5,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-009",
+      "query": "女性角色",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 51,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_think.png",
+        "stylized_mobile:kenney:mini-characters/character-female-f.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_run0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_behindBack.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk5.png"
+      ],
+      "recall@5": 0.09803921568627451,
+      "recall@10": 0.17647058823529413,
+      "ndcg@10": 0.9266360779006401,
+      "mrr": 1.0,
+      "duration_ms": 46.07,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-010",
+      "query": "男性角色",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 6,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack2.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_interact.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_switch1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_malePerson_climb0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_drag.png"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 54.38,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-011",
+      "query": "轮椅",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-characters/wheelchair.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-deluxe.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-power.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-power-deluxe.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_robot_back.png",
+        "stylized_mobile:kenney:castle/siege-trebuchet.glb",
+        "stylized_mobile:kenney:castle/siege-catapult.glb",
+        "stylized_mobile:kenney:castle/siege-tower.glb",
+        "stylized_mobile:kenney:icons/Game Icons/wrench.png",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad4.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.64,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-012",
+      "query": "宝箱",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:platformer/lock.glb",
+        "stylized_mobile:kenney:mini-characters/aid-defibrillator-red.glb",
+        "stylized_mobile:kenney:castle/tower-square.glb",
+        "stylized_mobile:kenney:mini-dungeon/wall.glb",
+        "stylized_mobile:kenney:platformer/block-moving-blue.glb",
+        "stylized_mobile:kenney:mini-characters/aid-defibrillator-green.glb",
+        "stylized_mobile:kenney:platformer/crate-item.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb",
+        "stylized_mobile:kenney:castle/wall-corner-slant.glb",
+        "stylized_mobile:kenney:castle/wall-corner-half-tower.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 57.22,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-013",
+      "query": "金币",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/egg-cooked.glb",
+        "stylized_mobile:kenney:food/cheese.glb",
+        "stylized_mobile:kenney:platformer/coin-gold.glb",
+        "stylized_mobile:kenney:mini-dungeon/coin.glb",
+        "stylized_mobile:kenney:food/lemon.glb",
+        "stylized_mobile:kenney:platformer/key.glb",
+        "stylized_mobile:kenney:food/pan-stew.glb",
+        "stylized_mobile:kenney:food/pancakes.glb",
+        "stylized_mobile:kenney:weapon/ammo_machinegunLauncherGreen.glb",
+        "stylized_mobile:kenney:platformer/star.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.43067655807339306,
+      "mrr": 0.25,
+      "duration_ms": 46.57,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-014",
+      "query": "木桶",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/wall-corner-half-tower.glb",
+        "stylized_mobile:kenney:castle/tower-base.glb",
+        "stylized_mobile:kenney:food/steamer.glb",
+        "stylized_mobile:kenney:platformer/fence-rope.glb",
+        "stylized_mobile:kenney:food/pancakes.glb",
+        "stylized_mobile:kenney:food/soda-can.glb",
+        "stylized_mobile:kenney:food/frappe.glb",
+        "stylized_mobile:kenney:platformer/barrel.glb",
+        "stylized_mobile:kenney:food/honey.glb",
+        "stylized_mobile:kenney:castle/wall-corner-slant.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.3333333333333333,
+      "ndcg@10": 0.1480409554829326,
+      "mrr": 0.125,
+      "duration_ms": 48.33,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-015",
+      "query": "苹果",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/apple.glb",
+        "stylized_mobile:kenney:food/apple-half.glb",
+        "stylized_mobile:kenney:food/tomato.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_duck.png",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:icons/Game Icons/trashcanOpen.png",
+        "stylized_mobile:kenney:food/cherries.glb",
+        "stylized_mobile:kenney:food/orange.glb",
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb1.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 48.35,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-016",
+      "query": "香蕉",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/banana.glb",
+        "stylized_mobile:kenney:food/corn.glb",
+        "stylized_mobile:kenney:food/popsicle.glb",
+        "stylized_mobile:kenney:food/pepper.glb",
+        "stylized_mobile:kenney:food/pear-half.glb",
+        "stylized_mobile:kenney:food/sushi-egg.glb",
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:platformer/character-ooli.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_run0.png",
+        "stylized_mobile:kenney:food/pancakes.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 47.23,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-017",
+      "query": "汉堡",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:food/burger-cheese-double.glb",
+        "stylized_mobile:kenney:food/burger.glb",
+        "stylized_mobile:kenney:food/burger-cheese.glb",
+        "stylized_mobile:kenney:food/sub.glb",
+        "stylized_mobile:kenney:food/burger-double.glb",
+        "stylized_mobile:kenney:food/sandwich.glb",
+        "stylized_mobile:kenney:food/taco.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb",
+        "stylized_mobile:kenney:platformer/block-moving.glb",
+        "stylized_mobile:kenney:food/fries.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9828920819566879,
+      "mrr": 1.0,
+      "duration_ms": 54.94,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-018",
+      "query": "生日蛋糕",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cake-birthday.glb",
+        "stylized_mobile:kenney:food/cake.glb",
+        "stylized_mobile:kenney:food/sub.glb",
+        "stylized_mobile:kenney:food/cupcake.glb",
+        "stylized_mobile:kenney:food/donut-sprinkles.glb",
+        "stylized_mobile:kenney:food/plate-sauerkraut.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb",
+        "stylized_mobile:kenney:food/sandwich.glb",
+        "stylized_mobile:kenney:food/cheese.glb",
+        "stylized_mobile:kenney:castle/tower-square.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9778585125241057,
+      "mrr": 1.0,
+      "duration_ms": 46.17,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-019",
+      "query": "一棵树",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-forest/tree-high.glb",
+        "stylized_mobile:kenney:platformer/tree.glb",
+        "stylized_mobile:kenney:castle/tree-large.glb",
+        "stylized_mobile:kenney:castle/tree-small.glb",
+        "stylized_mobile:kenney:mini-forest/tree.glb",
+        "stylized_mobile:kenney:platformer/tree-pine.glb",
+        "stylized_mobile:kenney:platformer/tree-pine-small.glb",
+        "stylized_mobile:kenney:food/pancakes.glb",
+        "stylized_mobile:kenney:food/radish.glb",
+        "stylized_mobile:kenney:platformer/arrows.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9469024295259745,
+      "mrr": 1.0,
+      "duration_ms": 45.06,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-020",
+      "query": "帐篷",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/tower-hexagon-roof-secondary.glb",
+        "stylized_mobile:kenney:ui/UI Pack/slide_hangle.png",
+        "stylized_mobile:kenney:food/rice-ball.glb",
+        "stylized_mobile:kenney:mini-forest/building-roof.glb",
+        "stylized_mobile:kenney:castle/tower-square-arch.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:ui/UI Pack/arrow_decorative_n_small.png",
+        "stylized_mobile:kenney:food/pumpkin.glb",
+        "stylized_mobile:kenney:ui/UI Pack/arrow_basic_n_small.png",
+        "stylized_mobile:kenney:castle/tree-trunk.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.3562071871080222,
+      "mrr": 0.16666666666666666,
+      "duration_ms": 47.51,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-021",
+      "query": "弓箭手",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack2.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_switch0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attackKick.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_malePerson_attackKick.png",
+        "stylized_mobile:kenney:mini-characters/character-female-a.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_rope.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack1.png",
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 44.38,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-022",
+      "query": "攻城投石机",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:platformer/lever.glb",
+        "stylized_mobile:kenney:castle/siege-tower.glb",
+        "stylized_mobile:kenney:castle/wall-narrow-stairs-rail.glb",
+        "stylized_mobile:kenney:food/pan-stew.glb",
+        "stylized_mobile:kenney:castle/siege-ram-demolished.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncher.glb",
+        "stylized_mobile:kenney:food/pumpkin-basic.glb",
+        "stylized_mobile:kenney:food/egg-cup.glb",
+        "stylized_mobile:kenney:food/mug.glb",
+        "stylized_mobile:kenney:castle/siege-ballista.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 49.54,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-023",
+      "query": "攻城槌",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-forest/flag.glb",
+        "stylized_mobile:kenney:castle/flag-pennant.glb",
+        "stylized_mobile:kenney:castle/flag.glb",
+        "stylized_mobile:kenney:platformer/lever.glb",
+        "stylized_mobile:kenney:food/meat-tenderizer.glb",
+        "stylized_mobile:kenney:food/frying-pan-lid.glb",
+        "stylized_mobile:kenney:food/pizza-cutter.glb",
+        "stylized_mobile:kenney:food/lollypop.glb",
+        "stylized_mobile:kenney:platformer/fence-rope.glb",
+        "stylized_mobile:kenney:weapon/knife_sharp.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 45.43,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-024",
+      "query": "手枪",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/pistol.glb",
+        "stylized_mobile:kenney:weapon/pistolSilencer.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/machinegun.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/uzi.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_long.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_short.glb",
+        "stylized_mobile:kenney:weapon/uziLong.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 43.34,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-025",
+      "query": "狙击枪",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/sniperSand.glb",
+        "stylized_mobile:kenney:weapon/sniper.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/machinegun.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencer.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_long.glb",
+        "stylized_mobile:kenney:weapon/pistolSilencer.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 45.42,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-026",
+      "query": "火箭筒",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/ammo_rocketModern.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncherModern.glb",
+        "stylized_mobile:kenney:weapon/ammo_shotgun.glb",
+        "stylized_mobile:kenney:weapon/ammo_sniper.glb",
+        "stylized_mobile:kenney:weapon/ammo_uzi.glb",
+        "stylized_mobile:kenney:weapon/ammo_machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncher.glb",
+        "stylized_mobile:kenney:weapon/ammo_machinegun.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:food/corn-dog.glb"
+      ],
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.6666666666666666,
+      "ndcg@10": 0.4525081529734507,
+      "mrr": 0.5,
+      "duration_ms": 45.88,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-027",
+      "query": "手榴弹",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/ammo_machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/ammo_uzi.glb",
+        "stylized_mobile:kenney:weapon/grenadeSmoke.glb",
+        "stylized_mobile:kenney:weapon/ammo_machinegunLauncherGreen.glb",
+        "stylized_mobile:kenney:food/wholer-ham.glb",
+        "stylized_mobile:kenney:food/bottle-musterd.glb",
+        "stylized_mobile:kenney:weapon/ammo_sniper.glb",
+        "stylized_mobile:kenney:weapon/grenade.glb",
+        "stylized_mobile:kenney:food/apple-half.glb",
+        "stylized_mobile:kenney:food/soda-can.glb"
+      ],
+      "recall@5": 0.25,
+      "recall@10": 0.5,
+      "ndcg@10": 0.31834121936641585,
+      "mrr": 0.3333333333333333,
+      "duration_ms": 46.52,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-028",
+      "query": "金色冲锋枪",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 8,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/sniperSand.glb",
+        "stylized_mobile:kenney:weapon/uziSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/uziGold.glb",
+        "stylized_mobile:kenney:weapon/uziLongGold.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:platformer/key.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/pistolSilencer.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "ndcg@10": 0.7114364299575323,
+      "mrr": 1.0,
+      "duration_ms": 44.89,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-029",
+      "query": "矩形按钮",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 10,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 48.76,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-030",
+      "query": "圆形按钮",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 10,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_gradient.png",
+        "stylized_mobile:kenney:platformer/spring.glb",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_square.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_flat.png"
+      ],
+      "recall@5": 0.4,
+      "recall@10": 0.8,
+      "ndcg@10": 0.7948833326720564,
+      "mrr": 1.0,
+      "duration_ms": 47.43,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-031",
+      "query": "横向滑动条",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 6,
+      "retrieved": [
+        "stylized_mobile:kenney:food/bacon-raw.glb",
+        "stylized_mobile:kenney:food/bacon.glb",
+        "stylized_mobile:kenney:platformer/spike-block-wide.glb",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png",
+        "stylized_mobile:kenney:castle/flag-banner-short.glb",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png",
+        "stylized_mobile:kenney:castle/stairs-stone.glb",
+        "stylized_mobile:kenney:food/chopstick.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 43.85,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-032",
+      "query": "勾选框",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 12,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_square.png",
+        "stylized_mobile:kenney:ui/UI Pack/check_square_color_cross.png",
+        "stylized_mobile:kenney:ui/UI Pack/check_square_color_checkmark.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:icons/Game Icons/arrowRight.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_arrow_up_outline.png",
+        "stylized_mobile:kenney:icons/Game Icons/arrowLeft.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_outline_checkmark.png"
+      ],
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.20483424751859086,
+      "mrr": 0.3333333333333333,
+      "duration_ms": 48.43,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-033",
+      "query": "奖杯图标",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/trophy.png",
+        "stylized_mobile:kenney:food/cocktail.glb",
+        "stylized_mobile:kenney:icons/Game Icons/joystickUp.png",
+        "stylized_mobile:kenney:weapon/grenade.glb",
+        "stylized_mobile:kenney:icons/Game Icons/joystick.png",
+        "stylized_mobile:kenney:mini-dungeon/column.glb",
+        "stylized_mobile:kenney:icons/Game Icons/basket.png",
+        "stylized_mobile:kenney:food/egg-cup.glb",
+        "stylized_mobile:kenney:icons/Game Icons/joystickRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystickLeft.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 47.55,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-034",
+      "query": "星星图标",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/star.png",
+        "stylized_mobile:kenney:icons/Game Icons/star.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_duck.png",
+        "stylized_mobile:kenney:ui/UI Pack/star_outline.png",
+        "stylized_mobile:kenney:ui/UI Pack/check_square_color_cross.png",
+        "stylized_mobile:kenney:ui/UI Pack/star_outline_depth.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_walk0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_run2.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_outline_cross.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_run0.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 50.54,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-035",
+      "query": "游戏手柄图标",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 5,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/exitLeft.png",
+        "stylized_mobile:kenney:icons/Game Icons/exitRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/leaderboardsSimple.png",
+        "stylized_mobile:kenney:icons/Game Icons/trophy.png",
+        "stylized_mobile:kenney:icons/Game Icons/multiplayer.png",
+        "stylized_mobile:kenney:icons/Game Icons/import.png",
+        "stylized_mobile:kenney:icons/Game Icons/leaderboardsComplex.png",
+        "stylized_mobile:kenney:platformer/spring.glb",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad3.png",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad2.png"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.4,
+      "ndcg@10": 0.2001366809542687,
+      "mrr": 0.1111111111111111,
+      "duration_ms": 46.82,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-036",
+      "query": "纸杯蛋糕",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cupcake.glb",
+        "stylized_mobile:kenney:food/frappe.glb",
+        "stylized_mobile:kenney:icons/Game Icons/basket.png",
+        "stylized_mobile:kenney:food/cake.glb",
+        "stylized_mobile:kenney:castle/tower-base.glb",
+        "stylized_mobile:kenney:food/sundae.glb",
+        "stylized_mobile:kenney:food/plate-sauerkraut.glb",
+        "stylized_mobile:kenney:food/burger-cheese-double.glb",
+        "stylized_mobile:kenney:food/egg-half.glb",
+        "stylized_mobile:kenney:food/carton-small.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.01,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-037",
+      "query": "牛油果",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:food/pear-half.glb",
+        "stylized_mobile:kenney:food/pineapple.glb",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:food/cauliflower.glb",
+        "stylized_mobile:kenney:food/corn.glb",
+        "stylized_mobile:kenney:food/pumpkin-basic.glb",
+        "stylized_mobile:kenney:mini-forest/platform.glb",
+        "stylized_mobile:kenney:food/beet.glb",
+        "stylized_mobile:kenney:food/paprika.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 50.88,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-038",
+      "query": "西瓜",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:food/tomato.glb",
+        "stylized_mobile:kenney:food/apple.glb",
+        "stylized_mobile:kenney:food/watermelon.glb",
+        "stylized_mobile:kenney:food/paprika.glb",
+        "stylized_mobile:kenney:food/orange.glb",
+        "stylized_mobile:kenney:food/pumpkin-basic.glb",
+        "stylized_mobile:kenney:food/pineapple.glb",
+        "stylized_mobile:kenney:food/salad.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.38685280723454163,
+      "mrr": 0.2,
+      "duration_ms": 46.19,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-039",
+      "query": "吊桥",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/flag-wide.glb",
+        "stylized_mobile:kenney:platformer/fence-rope.glb",
+        "stylized_mobile:kenney:mini-forest/fence.glb",
+        "stylized_mobile:kenney:platformer/fence-straight.glb",
+        "stylized_mobile:kenney:mini-dungeon/banner.glb",
+        "stylized_mobile:kenney:mini-dungeon/wood-support.glb",
+        "stylized_mobile:kenney:mini-characters/aid-glasses.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:mini-dungeon/wood-structure.glb",
+        "stylized_mobile:kenney:platformer/fence-corner.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 47.27,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-040",
+      "query": "城堡旗帜",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 5,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/flag.glb",
+        "stylized_mobile:kenney:castle/flag-wide.glb",
+        "stylized_mobile:kenney:platformer/flag.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:castle/tower-square-roof.glb",
+        "stylized_mobile:kenney:mini-forest/building-platform.glb",
+        "stylized_mobile:kenney:mini-dungeon/wall-narrow.glb",
+        "stylized_mobile:kenney:icons/Game Icons/mouse.png",
+        "stylized_mobile:kenney:castle/flag-pennant.glb",
+        "stylized_mobile:kenney:castle/tower-hexagon-roof-secondary.glb"
+      ],
+      "recall@5": 0.4,
+      "recall@10": 0.6,
+      "ndcg@10": 0.6552438651310554,
+      "mrr": 1.0,
+      "duration_ms": 51.26,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-041",
+      "query": "梯子",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:platformer/ladder.glb",
+        "stylized_mobile:kenney:platformer/ladder-long.glb",
+        "stylized_mobile:kenney:castle/siege-tower.glb",
+        "stylized_mobile:kenney:mini-dungeon/stairs.glb",
+        "stylized_mobile:kenney:castle/siege-tower-demolished.glb",
+        "stylized_mobile:kenney:castle/stairs-stone.glb",
+        "stylized_mobile:kenney:castle/wall-narrow-stairs-rail.glb",
+        "stylized_mobile:kenney:mini-forest/ladder.glb",
+        "stylized_mobile:kenney:platformer/fence-straight.glb",
+        "stylized_mobile:kenney:castle/gate.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 1.0,
+      "ndcg@10": 0.8065735963827293,
+      "mrr": 1.0,
+      "duration_ms": 71.01,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-042",
+      "query": "地牢里的陷阱",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-dungeon/wall.glb",
+        "stylized_mobile:kenney:mini-dungeon/wall-narrow.glb",
+        "stylized_mobile:kenney:food/bowl-broth.glb",
+        "stylized_mobile:kenney:platformer/crate-strong.glb",
+        "stylized_mobile:kenney:platformer/crate-item-strong.glb",
+        "stylized_mobile:kenney:food/pan-stew.glb",
+        "stylized_mobile:kenney:platformer/lever.glb",
+        "stylized_mobile:kenney:food/bowl-cereal.glb",
+        "stylized_mobile:kenney:food/bowl-soup.glb",
+        "stylized_mobile:kenney:food/styrofoam-dinner.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 52.63,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-043",
+      "query": "火焰喷射器",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/rocketlauncherModern.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_long.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_short.glb",
+        "stylized_mobile:kenney:weapon/ammo_shotgun.glb",
+        "stylized_mobile:kenney:weapon/ammo_uzi.glb",
+        "stylized_mobile:kenney:weapon/uziSilencer.glb",
+        "stylized_mobile:kenney:weapon/uziSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/uzi.glb",
+        "stylized_mobile:kenney:weapon/ammo_machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.6934264036172708,
+      "mrr": 0.5,
+      "duration_ms": 50.82,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-044",
+      "query": "卡通风格的女性冒险者",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 45,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_duck.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hang.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_hold.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_run1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk1.png"
+      ],
+      "recall@5": 0.1111111111111111,
+      "recall@10": 0.17777777777777778,
+      "ndcg@10": 0.8603818544462509,
+      "mrr": 1.0,
+      "duration_ms": 56.3,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-045",
+      "query": "音乐开关图标",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/exitLeft.png",
+        "stylized_mobile:kenney:icons/Game Icons/musicOn.png",
+        "stylized_mobile:kenney:icons/Game Icons/exitRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/audioOff.png",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad.png",
+        "stylized_mobile:kenney:ui/UI Pack/slide_horizontal_grey.png",
+        "stylized_mobile:kenney:icons/Game Icons/next.png",
+        "stylized_mobile:kenney:ui/UI Pack/arrow_decorative_e_small.png",
+        "stylized_mobile:kenney:ui/UI Pack/check_square_color_cross.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_square_depth_gloss.png"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "ndcg@10": 0.38685280723454163,
+      "mrr": 0.5,
+      "duration_ms": 49.04,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-001",
+      "query": "a sword",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/knifeRound_sharp.glb",
+        "stylized_mobile:kenney:weapon/knife_sharp.glb",
+        "stylized_mobile:kenney:weapon/knife_smooth.glb",
+        "stylized_mobile:kenney:food/cooking-knife.glb",
+        "stylized_mobile:kenney:weapon/knifeRound_smooth.glb",
+        "stylized_mobile:kenney:mini-forest/flag.glb",
+        "stylized_mobile:kenney:castle/flag-pennant.glb",
+        "stylized_mobile:kenney:food/corn-dog.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:food/pizza-cutter.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 48.99,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-002",
+      "query": "a round shield",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/pot-lid.glb",
+        "stylized_mobile:kenney:mini-forest/target.glb",
+        "stylized_mobile:kenney:food/pot-stew-lid.glb",
+        "stylized_mobile:kenney:food/pan-stew.glb",
+        "stylized_mobile:kenney:mini-dungeon/shield-round.glb",
+        "stylized_mobile:kenney:food/can.glb",
+        "stylized_mobile:kenney:platformer/spring.glb",
+        "stylized_mobile:kenney:food/cutting-board-round.glb",
+        "stylized_mobile:kenney:food/can-small.glb",
+        "stylized_mobile:kenney:food/frying-pan.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.38685280723454163,
+      "mrr": 0.2,
+      "duration_ms": 65.1,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-003",
+      "query": "an orc character",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_switch0.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_attack0.png",
+        "stylized_mobile:kenney:mini-characters/character-male-f.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_attack1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk3.png",
+        "stylized_mobile:kenney:mini-dungeon/character-orc.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk5.png",
+        "stylized_mobile:kenney:mini-dungeon/character-human.glb",
+        "stylized_mobile:kenney:mini-forest/character-archer.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk7.png"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.3562071871080222,
+      "mrr": 0.16666666666666666,
+      "duration_ms": 50.63,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-004",
+      "query": "birthday cake",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:food/cake-birthday.glb",
+        "stylized_mobile:kenney:food/cake.glb",
+        "stylized_mobile:kenney:food/sub.glb",
+        "stylized_mobile:kenney:food/cupcake.glb",
+        "stylized_mobile:kenney:food/carton-small.glb",
+        "stylized_mobile:kenney:food/donut-sprinkles.glb",
+        "stylized_mobile:kenney:castle/wall-half.glb",
+        "stylized_mobile:kenney:food/taco.glb",
+        "stylized_mobile:kenney:food/sandwich.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9778585125241057,
+      "mrr": 1.0,
+      "duration_ms": 53.49,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-005",
+      "query": "a pistol",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/pistol.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/pistolSilencer.glb",
+        "stylized_mobile:kenney:weapon/uzi.glb",
+        "stylized_mobile:kenney:weapon/uziLong.glb",
+        "stylized_mobile:kenney:weapon/machinegun.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_short.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_long.glb",
+        "stylized_mobile:kenney:weapon/uziSilencer.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.8772153153380493,
+      "mrr": 1.0,
+      "duration_ms": 50.32,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-006",
+      "query": "sniper rifle",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/sniperSand.glb",
+        "stylized_mobile:kenney:weapon/sniper.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencer.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/machinegun.glb",
+        "stylized_mobile:kenney:weapon/uziSilencer.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncherSide.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 51.54,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-007",
+      "query": "wooden barrel",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/wall-corner-half-tower.glb",
+        "stylized_mobile:kenney:castle/tower-base.glb",
+        "stylized_mobile:kenney:food/steamer.glb",
+        "stylized_mobile:kenney:food/barrel.glb",
+        "stylized_mobile:kenney:platformer/barrel.glb",
+        "stylized_mobile:kenney:food/honey.glb",
+        "stylized_mobile:kenney:food/soda-can.glb",
+        "stylized_mobile:kenney:food/can.glb",
+        "stylized_mobile:kenney:food/pancakes.glb",
+        "stylized_mobile:kenney:mini-dungeon/barrel.glb"
+      ],
+      "recall@5": 0.6666666666666666,
+      "recall@10": 1.0,
+      "ndcg@10": 0.519301112470348,
+      "mrr": 0.25,
+      "duration_ms": 58.56,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-008",
+      "query": "treasure chest",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:platformer/lock.glb",
+        "stylized_mobile:kenney:castle/wall-corner-half-tower.glb",
+        "stylized_mobile:kenney:mini-characters/aid-defibrillator-red.glb",
+        "stylized_mobile:kenney:mini-characters/aid-defibrillator-green.glb",
+        "stylized_mobile:kenney:castle/tower-square.glb",
+        "stylized_mobile:kenney:castle/siege-ram-demolished.glb",
+        "stylized_mobile:kenney:castle/wall-narrow-stairs-rail.glb",
+        "stylized_mobile:kenney:food/loaf.glb",
+        "stylized_mobile:kenney:food/styrofoam-dinner.glb",
+        "stylized_mobile:kenney:castle/wall-corner-slant.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 52.45,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-009",
+      "query": "a cartoon tree",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-forest/tree-high.glb",
+        "stylized_mobile:kenney:castle/tree-large.glb",
+        "stylized_mobile:kenney:platformer/tree.glb",
+        "stylized_mobile:kenney:castle/tree-small.glb",
+        "stylized_mobile:kenney:mini-forest/tree.glb",
+        "stylized_mobile:kenney:platformer/tree-pine.glb",
+        "stylized_mobile:kenney:platformer/tree-pine-small.glb",
+        "stylized_mobile:kenney:food/radish.glb",
+        "stylized_mobile:kenney:food/pear-half.glb",
+        "stylized_mobile:kenney:platformer/tree-pine-snow-small.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.8854598815714874,
+      "mrr": 1.0,
+      "duration_ms": 48.03,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-010",
+      "query": "wheelchair",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-characters/wheelchair.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-power.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-power-deluxe.glb",
+        "stylized_mobile:kenney:mini-characters/wheelchair-deluxe.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_robot_back.png",
+        "stylized_mobile:kenney:castle/siege-trebuchet.glb",
+        "stylized_mobile:kenney:castle/siege-catapult.glb",
+        "stylized_mobile:kenney:castle/siege-tower-demolished.glb",
+        "stylized_mobile:kenney:icons/Game Icons/wrench.png",
+        "stylized_mobile:kenney:castle/siege-tower.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.04,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-011",
+      "query": "UI button",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 30,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/slide_horizontal_color.png",
+        "stylized_mobile:kenney:ui/UI Pack/slide_vertical_color.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_round_border.png"
+      ],
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.26666666666666666,
+      "ndcg@10": 0.8482378089219645,
+      "mrr": 1.0,
+      "duration_ms": 50.29,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-012",
+      "query": "hamburger",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 4,
+      "retrieved": [
+        "stylized_mobile:kenney:food/burger.glb",
+        "stylized_mobile:kenney:food/burger-cheese-double.glb",
+        "stylized_mobile:kenney:food/burger-cheese.glb",
+        "stylized_mobile:kenney:food/sub.glb",
+        "stylized_mobile:kenney:food/burger-double.glb",
+        "stylized_mobile:kenney:food/sandwich.glb",
+        "stylized_mobile:kenney:food/taco.glb",
+        "stylized_mobile:kenney:platformer/block-moving.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb",
+        "stylized_mobile:kenney:castle/tower-square-base-color.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9828920819566879,
+      "mrr": 1.0,
+      "duration_ms": 47.03,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-013",
+      "query": "bow and arrow",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb",
+        "stylized_mobile:kenney:icons/Game Icons/upRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/upLeft.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb0.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_outline_checkmark.png",
+        "stylized_mobile:kenney:icons/Game Icons/wrench.png",
+        "stylized_mobile:kenney:icons/Game Icons/arrowLeft.png",
+        "stylized_mobile:kenney:icons/Game Icons/arrowRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/open.png",
+        "stylized_mobile:kenney:food/corn-dog.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 48.41,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-014",
+      "query": "siege catapult",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 10,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/siege-tower-demolished.glb",
+        "stylized_mobile:kenney:castle/siege-trebuchet.glb",
+        "stylized_mobile:kenney:castle/siege-catapult.glb",
+        "stylized_mobile:kenney:castle/siege-tower.glb",
+        "stylized_mobile:kenney:castle/siege-ballista-demolished.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:castle/siege-ballista.glb",
+        "stylized_mobile:kenney:platformer/fence-rope.glb",
+        "stylized_mobile:kenney:mini-forest/bridge.glb",
+        "stylized_mobile:kenney:castle/siege-catapult-demolished.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 0.7,
+      "ndcg@10": 0.7343399845223662,
+      "mrr": 1.0,
+      "duration_ms": 48.1,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-015",
+      "query": "gold uzi",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 8,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/uziGold.glb",
+        "stylized_mobile:kenney:weapon/uziSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/uziLongGold.glb",
+        "stylized_mobile:kenney:weapon/sniperSand.glb",
+        "stylized_mobile:kenney:platformer/key.glb",
+        "stylized_mobile:kenney:food/cheese-cut.glb",
+        "stylized_mobile:kenney:weapon/uzi.glb",
+        "stylized_mobile:kenney:icons/Game Icons/trashcanOpen.png",
+        "stylized_mobile:kenney:weapon/machinegun.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 0.625,
+      "ndcg@10": 0.8347840942740122,
+      "mrr": 1.0,
+      "duration_ms": 47.75,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-016",
+      "query": "female character",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 51,
+      "retrieved": [
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_think.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk5.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_hold.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png",
+        "stylized_mobile:kenney:mini-characters/character-female-f.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femalePerson_climb1.png",
+        "stylized_mobile:kenney:2d/Toon Characters/character_zombie_walk2.png"
+      ],
+      "recall@5": 0.0196078431372549,
+      "recall@10": 0.0784313725490196,
+      "ndcg@10": 0.3063365306564336,
+      "mrr": 0.2,
+      "duration_ms": 50.74,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-017",
+      "query": "a tent",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/tower-hexagon-roof-secondary.glb",
+        "stylized_mobile:kenney:castle/tree-trunk.glb",
+        "stylized_mobile:kenney:food/rice-ball.glb",
+        "stylized_mobile:kenney:mini-forest/building-roof.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:castle/tower-square-arch.glb",
+        "stylized_mobile:kenney:ui/UI Pack/arrow_decorative_n_small.png",
+        "stylized_mobile:kenney:food/bowl-broth.glb",
+        "stylized_mobile:kenney:food/pumpkin.glb",
+        "stylized_mobile:kenney:ui/UI Pack/slide_hangle.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.38685280723454163,
+      "mrr": 0.2,
+      "duration_ms": 51.49,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-018",
+      "query": "apple",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/apple.glb",
+        "stylized_mobile:kenney:food/apple-half.glb",
+        "stylized_mobile:kenney:food/tomato.glb",
+        "stylized_mobile:kenney:food/pear-half.glb",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:food/orange.glb",
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:icons/Game Icons/trashcanOpen.png",
+        "stylized_mobile:kenney:food/cherries.glb",
+        "stylized_mobile:kenney:icons/Game Icons/trashcan.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 48.01,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-019",
+      "query": "avocado",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/pear-half.glb",
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:food/cauliflower.glb",
+        "stylized_mobile:kenney:food/beet.glb",
+        "stylized_mobile:kenney:food/corn.glb",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:food/pineapple.glb",
+        "stylized_mobile:kenney:food/eggplant.glb",
+        "stylized_mobile:kenney:food/watermelon.glb",
+        "stylized_mobile:kenney:food/orange.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 50.83,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-020",
+      "query": "rocket launcher",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 3,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/rocketlauncherModern.glb",
+        "stylized_mobile:kenney:weapon/ammo_rocketModern.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncher.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/uziSilencer.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncherSide.glb",
+        "stylized_mobile:kenney:weapon/uziSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/ammo_sniper.glb"
+      ],
+      "recall@5": 0.6666666666666666,
+      "recall@10": 1.0,
+      "ndcg@10": 0.8519590445170673,
+      "mrr": 1.0,
+      "duration_ms": 48.35,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-021",
+      "query": "trophy icon",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/trophy.png",
+        "stylized_mobile:kenney:food/cocktail.glb",
+        "stylized_mobile:kenney:icons/Game Icons/zoomOut.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystickUp.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystick.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystickRight.png",
+        "stylized_mobile:kenney:icons/Game Icons/import.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystickLeft.png",
+        "stylized_mobile:kenney:weapon/grenade.glb",
+        "stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.42,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-022",
+      "query": "drawbridge",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:castle/flag-wide.glb",
+        "stylized_mobile:kenney:castle/bridge-straight.glb",
+        "stylized_mobile:kenney:mini-dungeon/banner.glb",
+        "stylized_mobile:kenney:castle/wall-narrow-gate.glb",
+        "stylized_mobile:kenney:mini-forest/building-structure.glb",
+        "stylized_mobile:kenney:mini-dungeon/wood-structure.glb",
+        "stylized_mobile:kenney:mini-forest/tent.glb",
+        "stylized_mobile:kenney:mini-dungeon/wood-support.glb",
+        "stylized_mobile:kenney:mini-forest/fence.glb",
+        "stylized_mobile:kenney:castle/tower-hexagon-top.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 58.26,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-023",
+      "query": "flamethrower",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/uziSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncherModern.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_short.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb",
+        "stylized_mobile:kenney:weapon/uziSilencer.glb",
+        "stylized_mobile:kenney:weapon/flamethrower_long.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/sniperSand.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 1.0,
+      "ndcg@10": 0.5249810332008933,
+      "mrr": 0.3333333333333333,
+      "duration_ms": 55.11,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-024",
+      "query": "a spear",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:food/corn-dog.glb",
+        "stylized_mobile:kenney:food/cooking-knife.glb",
+        "stylized_mobile:kenney:weapon/knife_sharp.glb",
+        "stylized_mobile:kenney:weapon/knifeRound_sharp.glb",
+        "stylized_mobile:kenney:weapon/knife_smooth.glb",
+        "stylized_mobile:kenney:food/chopstic-decorative.glb",
+        "stylized_mobile:kenney:weapon/knifeRound_smooth.glb",
+        "stylized_mobile:kenney:food/lollypop.glb",
+        "stylized_mobile:kenney:castle/tree-log.glb",
+        "stylized_mobile:kenney:food/whole-ham.glb"
+      ],
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "duration_ms": 51.43,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-025",
+      "query": "checkpoint flag",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 7,
+      "retrieved": [
+        "stylized_mobile:kenney:platformer/flag.glb",
+        "stylized_mobile:kenney:castle/flag.glb",
+        "stylized_mobile:kenney:ui/UI Pack/icon_outline_checkmark.png",
+        "stylized_mobile:kenney:ui/UI Pack/icon_repeat_dark.png",
+        "stylized_mobile:kenney:food/lollypop.glb",
+        "stylized_mobile:kenney:icons/Game Icons/exclamation.png",
+        "stylized_mobile:kenney:food/carton.glb",
+        "stylized_mobile:kenney:icons/Game Icons/share1.png",
+        "stylized_mobile:kenney:icons/Game Icons/warning.png",
+        "stylized_mobile:kenney:mini-characters/aid-cane-low-vision.glb"
+      ],
+      "recall@5": 0.2857142857142857,
+      "recall@10": 0.2857142857142857,
+      "ndcg@10": 0.3516450798625576,
+      "mrr": 1.0,
+      "duration_ms": 54.5,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-046",
+      "query": "一台复古相机",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.75,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-047",
+      "query": "写实风格的手枪",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 52.34,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-048",
+      "query": "皮沙发",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:metal_office_desk/metal_office_desk_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:wooden_table_02/wooden_table_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:plywood/plywood_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:fabric_pattern_05/fabric_pattern_05_roughness_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 53.25,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-049",
+      "query": "红酒瓶",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:wine_bottles_01/wine_bottles_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:roof_07/roof_07_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:plywood/plywood_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 52.36,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-050",
+      "query": "砖墙贴图",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:roof_07/roof_07_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:sand_01/sand_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 51.0,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-026",
+      "query": "vintage camera",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 51.88,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-027",
+      "query": "a realistic pistol",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.63,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-028",
+      "query": "wooden table",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:wooden_table_02/wooden_table_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:wood_floor_deck/wood_floor_deck_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:plywood/plywood_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:metal_office_desk/metal_office_desk_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:roof_07/roof_07_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 51.07,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-029",
+      "query": "rusty metal texture",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:sand_01/sand_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:wood_floor_deck/wood_floor_deck_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 51.02,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-030",
+      "query": "horse statue",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:sand_01/sand_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:roof_07/roof_07_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 49.61,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-051",
+      "query": "办公桌",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:metal_office_desk/metal_office_desk_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:wooden_table_02/wooden_table_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:plywood/plywood_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:wood_floor_deck/wood_floor_deck_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 54.17,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-052",
+      "query": "墙上的钟",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:wall_clock/wall_clock_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:bark_brown_02/bark_brown_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:roof_07/roof_07_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 47.66,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-031",
+      "query": "ceramic vase",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "easy",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:wine_bottles_01/wine_bottles_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:sand_01/sand_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 46.99,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "en-032",
+      "query": "leather texture",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:sand_01/sand_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:plywood/plywood_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 48.2,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-053",
+      "query": "螺栓步枪",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:concrete_wall_001/concrete_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:coast_sand_rocks_02/coast_sand_rocks_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:rock_wall_02/rock_wall_02_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:brown_mud_leaves_01/brown_mud_leaves_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 46.63,
+      "mode": "semantic",
+      "warnings": []
+    },
+    {
+      "id": "zh-054",
+      "query": "武器",
+      "lang": "zh",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 72,
+      "retrieved": [
+        "stylized_mobile:kenney:weapon/pistolSilencer.glb",
+        "stylized_mobile:kenney:weapon/shotgun.glb",
+        "stylized_mobile:kenney:weapon/machinegunLauncher.glb",
+        "stylized_mobile:kenney:weapon/sniper.glb",
+        "stylized_mobile:kenney:weapon/shotgunShort.glb",
+        "stylized_mobile:kenney:weapon/machinegun.glb",
+        "stylized_mobile:kenney:weapon/rocketlauncherSide.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencer.glb",
+        "stylized_mobile:kenney:weapon/pistol.glb",
+        "stylized_mobile:kenney:weapon/uziLongSilencerGold.glb"
+      ],
+      "recall@5": 0.06944444444444445,
+      "recall@10": 0.1388888888888889,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 48.86,
+      "mode": "semantic",
+      "warnings": [
+        "查询较宽，建议补充类型、项目或风格等过滤条件；已返回过滤后的语义结果。"
+      ]
+    },
+    {
+      "id": "en-033",
+      "query": "food",
+      "lang": "en",
+      "modality": "text",
+      "project_id": "stylized_mobile",
+      "difficulty": "hard",
+      "n_relevant": 200,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/basket.png",
+        "stylized_mobile:kenney:food/taco.glb",
+        "stylized_mobile:kenney:platformer/block-moving.glb",
+        "stylized_mobile:kenney:food/bread.glb",
+        "stylized_mobile:kenney:food/plate-dinner.glb",
+        "stylized_mobile:kenney:food/sub.glb",
+        "stylized_mobile:kenney:food/fries.glb",
+        "stylized_mobile:kenney:platformer/block-moving-large.glb",
+        "stylized_mobile:kenney:food/pot-stew.glb",
+        "stylized_mobile:kenney:food/burger.glb"
+      ],
+      "recall@5": 0.015,
+      "recall@10": 0.035,
+      "ndcg@10": 0.6004311286161025,
+      "mrr": 0.5,
+      "duration_ms": 46.15,
+      "mode": "semantic",
+      "warnings": [
+        "查询较宽，建议补充类型、项目或风格等过滤条件；已返回过滤后的语义结果。"
+      ]
+    },
+    {
+      "id": "img-001",
+      "query": "[image:weapon-sword.glb]",
+      "lang": "zh",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-dungeon/weapon-sword.glb",
+        "stylized_mobile:kenney:mini-dungeon/weapon-spear.glb",
+        "stylized_mobile:kenney:food/mortar-pestle.glb",
+        "stylized_mobile:kenney:mini-characters/aid-cane-blind.glb",
+        "stylized_mobile:kenney:platformer/tree-pine-snow-small.glb",
+        "stylized_mobile:kenney:platformer/tree-pine-snow.glb",
+        "stylized_mobile:kenney:platformer/tree-snow.glb",
+        "stylized_mobile:kenney:platformer/arrows.glb",
+        "stylized_mobile:kenney:platformer/lever.glb",
+        "stylized_mobile:kenney:mini-characters/aid-cane-low-vision.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 11.72,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-002",
+      "query": "[image:apple.glb]",
+      "lang": "zh",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 2,
+      "retrieved": [
+        "stylized_mobile:kenney:food/apple.glb",
+        "stylized_mobile:kenney:food/tomato.glb",
+        "stylized_mobile:kenney:food/orange.glb",
+        "stylized_mobile:kenney:food/apple-half.glb",
+        "stylized_mobile:kenney:food/strawberry.glb",
+        "stylized_mobile:kenney:food/paprika.glb",
+        "stylized_mobile:kenney:food/pear.glb",
+        "stylized_mobile:kenney:food/cherries.glb",
+        "stylized_mobile:kenney:food/pumpkin-basic.glb",
+        "stylized_mobile:kenney:food/pineapple.glb"
+      ],
+      "recall@5": 0.5,
+      "recall@10": 1.0,
+      "ndcg@10": 0.7903864795495061,
+      "mrr": 1.0,
+      "duration_ms": 10.45,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-003",
+      "query": "[image:character-orc.glb]",
+      "lang": "en",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-dungeon/character-orc.glb",
+        "stylized_mobile:kenney:mini-forest/character-archer.glb",
+        "stylized_mobile:kenney:mini-characters/character-male-f.glb",
+        "stylized_mobile:kenney:mini-dungeon/character-human.glb",
+        "stylized_mobile:kenney:platformer/tree.glb",
+        "stylized_mobile:kenney:mini-characters/character-male-b.glb",
+        "stylized_mobile:kenney:mini-characters/character-male-a.glb",
+        "stylized_mobile:kenney:mini-characters/character-female-a.glb",
+        "stylized_mobile:kenney:food/turkey.glb",
+        "stylized_mobile:kenney:mini-characters/character-female-c.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 10.93,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-004",
+      "query": "[image:Camera_01]",
+      "lang": "en",
+      "modality": "image",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:metal_office_desk/metal_office_desk_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-texture:aerial_asphalt_01/aerial_asphalt_01_albedo_1k.jpg",
+        "realistic:polyhaven:polyhaven-texture:cobblestone_floor_01/cobblestone_floor_01_albedo_1k.jpg"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 10.37,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-005",
+      "query": "[image:button_rectangle_flat.png]",
+      "lang": "zh",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_square_flat.png",
+        "stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 9.31,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-006",
+      "query": "[image:shield-round.glb]",
+      "lang": "zh",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:mini-dungeon/shield-round.glb",
+        "stylized_mobile:kenney:platformer/coin-silver.glb",
+        "stylized_mobile:kenney:platformer/coin-gold.glb",
+        "stylized_mobile:kenney:food/pot-lid.glb",
+        "stylized_mobile:kenney:platformer/saw.glb",
+        "stylized_mobile:kenney:platformer/button-round.glb",
+        "stylized_mobile:kenney:mini-dungeon/coin.glb",
+        "stylized_mobile:kenney:platformer/bomb.glb",
+        "stylized_mobile:kenney:mini-dungeon/shield-rectangle.glb",
+        "stylized_mobile:kenney:food/pan.glb"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 10.74,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-007",
+      "query": "[image:trophy.png]",
+      "lang": "en",
+      "modality": "image",
+      "project_id": "stylized_mobile",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "stylized_mobile:kenney:icons/Game Icons/trophy.png",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad.png",
+        "stylized_mobile:kenney:icons/Game Icons/import.png",
+        "stylized_mobile:kenney:icons/Game Icons/leaderboardsSimple.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystick.png",
+        "stylized_mobile:kenney:icons/Game Icons/leaderboardsComplex.png",
+        "stylized_mobile:kenney:icons/Game Icons/signal1.png",
+        "stylized_mobile:kenney:icons/Game Icons/trashcan.png",
+        "stylized_mobile:kenney:icons/Game Icons/gamepad3.png",
+        "stylized_mobile:kenney:icons/Game Icons/joystickUp.png"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 13.99,
+      "mode": "image",
+      "warnings": []
+    },
+    {
+      "id": "img-008",
+      "query": "[image:service_pistol]",
+      "lang": "en",
+      "modality": "image",
+      "project_id": "realistic",
+      "difficulty": "medium",
+      "n_relevant": 1,
+      "retrieved": [
+        "realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Television_01/Television_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:classic_laptop/classic_laptop_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Lantern_01/Lantern_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:Barrel_01/Barrel_01_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:wooden_table_02/wooden_table_02_1k.gltf",
+        "realistic:polyhaven:polyhaven-model:wine_bottles_01/wine_bottles_01_1k.gltf"
+      ],
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 1.0,
+      "mrr": 1.0,
+      "duration_ms": 9.63,
+      "mode": "image",
+      "warnings": []
+    }
+  ],
+  "precheck": {
+    "by_check": {
+      "naming": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tn": 14,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "gltf_valid": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "image_power_of_two": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "image_max_side": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "poly_budget": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "format": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "file_size": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "texture_power_of_two_3d": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "false_block": {
+      "n_false": 0,
+      "n_should_not": 9,
+      "rate": 0.0
+    },
+    "missed_block": {
+      "n_missed": 0,
+      "n_should": 8,
+      "rate": 0.0
+    },
+    "latency_ms": {
+      "n": 18,
+      "mean": 102.3297772777975,
+      "p50": 149.42963950034027,
+      "p95": 198.72235179982448,
+      "max": 237.41103000065777
+    },
+    "n_items": 18,
+    "n_evaluated": 18,
+    "rows": [
+      {
+        "id": "bad_name_final_final2",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 173.29148699900543,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": "final_final2.glb",
+            "message": "文件名不符合规范（示例：m_wpn_sword_lod0_v001.glb）"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          }
+        ],
+        "note": "故意使用 final_final2.glb 这种不合规命名。内容本身是合法 Kenney 剑。"
+      },
+      {
+        "id": "npot_1000x800_texture",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 3.0572059986297973,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_tex_wallpaint_lod0_v001.png",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "image_power_of_two",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": {
+              "width": 1000,
+              "height": 800
+            },
+            "message": "1000×800 不是 2 的幂次"
+          },
+          {
+            "check_id": "image_max_side",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 1000,
+            "message": "最长边 1000，上限 2048"
+          }
+        ],
+        "note": "1000×800 非 2 的幂次，且类型为 texture，模板 M 强制 POT。"
+      },
+      {
+        "id": "npot_ui_not_required",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 0.13437799862003885,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_ui_bannerwide_lod0_v001.png",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "image_power_of_two",
+            "expected": "skip",
+            "predicted": "skip",
+            "outcome": "tn",
+            "measured": {
+              "width": 1000,
+              "height": 800,
+              "power_of_two": false
+            },
+            "message": "本类型不强制 2 的幂次，已跳过拦截"
+          },
+          {
+            "check_id": "image_max_side",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 1000,
+            "message": "最长边 1000，上限 2048"
+          }
+        ],
+        "note": "同一张 1000×800，类型为 UI，模板不强制 POT，不应因此阻断。验证产品策略而不是漏检。"
+      },
+      {
+        "id": "overbudget_icosphere",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 170.5066779995832,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_prp_megaball_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": 20480,
+            "message": "三角面 20480，LOD0 预算 2000"
+          }
+        ],
+        "note": "用 trimesh icosphere(subdivisions=5) 生成约 20480 三角面，超过模板 M prop LOD0 预算 2000。面数以工具实测为准。"
+      },
+      {
+        "id": "invalid_gltf_missing_accessor",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 237.41103000065777,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_prp_brokenmesh_lod0_v001.gltf",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": {
+              "num_errors": 1,
+              "num_warnings": 0
+            },
+            "message": "校验失败：1 个 error。warning 不作为阻断。"
+          }
+        ],
+        "note": "故意缺失 accessor 99。只有官方校验器的 error 才应 block；本条是真正的规范错误。"
+      },
+      {
+        "id": "name_mismatch_shield_is_sword",
+        "overall_expected": "warn",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 156.79873400040378,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_wpn_shieldround_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 80,
+            "message": "三角面 80，LOD0 预算 2000"
+          },
+          {
+            "check_id": "name_content_mismatch",
+            "status": "fail",
+            "severity": "warn",
+            "layer": "visual",
+            "skipped_reason": "规则层评测排除视觉项"
+          }
+        ],
+        "note": "文件名是盾、内容是剑。规则层无法判定，应由 VLM 给 warn。无 API 时视觉项 not_run，规则层应 overall=pass。"
+      },
+      {
+        "id": "wrong_format_fbx",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 0.08249699931184296,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": "m_prp_secretasset_lod0_v001.fbx",
+            "message": "文件名不符合规范（示例：m_wpn_sword_lod0_v001.glb）"
+          },
+          {
+            "check_id": "format",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": "fbx",
+            "message": "格式 .fbx 不在允许列表 ['glb', 'gltf', 'png', 'jpg', 'jpeg'] 中"
+          }
+        ],
+        "note": "模板 M 不允许 fbx。命名正则也不含该扩展名。"
+      },
+      {
+        "id": "oversized_file",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 0.199838999833446,
+        "checks": [
+          {
+            "check_id": "file_size",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": 16784964,
+            "message": "16784964 字节，上限 8.0 MB"
+          }
+        ],
+        "note": "体积超过模板 M 的 8MB。"
+      },
+      {
+        "id": "over_max_side_4096",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 0.12086300012015272,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_tex_toobig_lod0_v001.png",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "image_power_of_two",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "width": 4096,
+              "height": 4096
+            },
+            "message": "是 2 的幂次"
+          },
+          {
+            "check_id": "image_max_side",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": 4096,
+            "message": "最长边 4096，上限 2048"
+          }
+        ],
+        "note": "4096×4096 是 2 的幂次，但超过模板 M 贴图上限 2048。用来区分两项检查。"
+      },
+      {
+        "id": "npot_3d_texture",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": true,
+        "duration_ms": 151.37629600030778,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_prp_redquad_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "fail",
+            "predicted": "fail",
+            "outcome": "tp",
+            "measured": [
+              {
+                "name": "",
+                "uri": "",
+                "resolution": "1000x800",
+                "width": 1000,
+                "height": 800,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": false
+              }
+            ],
+            "message": "存在非 2 的幂次贴图"
+          }
+        ],
+        "note": "网格面数很低，但贴图为 1000×800。应被 3D 贴图 POT 规则拦截，而不是面数规则。"
+      },
+      {
+        "id": "compliant_sword",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 155.21292700032063,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_wpn_sword_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "file_size",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 9284,
+            "message": "9284 字节，上限 8.0 MB"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 80,
+            "message": "三角面 80，LOD0 预算 2000"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": [
+              {
+                "name": "colormap",
+                "uri": "Textures/colormap.png",
+                "resolution": "512x512",
+                "width": 512,
+                "height": 512,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": true
+              }
+            ],
+            "message": "全部为 2 的幂次"
+          }
+        ],
+        "note": "合规对照样本，来自 Kenney weapon-sword.glb，已赋规范文件名。"
+      },
+      {
+        "id": "compliant_shieldround",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 159.2526700005692,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_wpn_shieldround_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "file_size",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 15512,
+            "message": "15512 字节，上限 8.0 MB"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 160,
+            "message": "三角面 160，LOD0 预算 2000"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": [
+              {
+                "name": "colormap",
+                "uri": "Textures/colormap.png",
+                "resolution": "512x512",
+                "width": 512,
+                "height": 512,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": true
+              }
+            ],
+            "message": "全部为 2 的幂次"
+          }
+        ],
+        "note": "合规对照样本，来自 Kenney shield-round.glb，已赋规范文件名。"
+      },
+      {
+        "id": "compliant_human",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 191.8949379996775,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_chr_human_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "file_size",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 218072,
+            "message": "218072 字节，上限 8.0 MB"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 2
+            },
+            "message": "通过（errors=0, warnings=2）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 465,
+            "message": "三角面 465，LOD0 预算 2000"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": [
+              {
+                "name": "colormap",
+                "uri": "Textures/colormap.png",
+                "resolution": "512x512",
+                "width": 512,
+                "height": 512,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": true
+              }
+            ],
+            "message": "全部为 2 的幂次"
+          }
+        ],
+        "note": "合规对照样本，来自 Kenney character-human.glb，已赋规范文件名。"
+      },
+      {
+        "id": "compliant_apple",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 152.31043600033445,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_prp_apple_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "file_size",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 14376,
+            "message": "14376 字节，上限 8.0 MB"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 136,
+            "message": "三角面 136，LOD0 预算 2000"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": [
+              {
+                "name": "colormap",
+                "uri": "Textures/colormap.png",
+                "resolution": "512x512",
+                "width": 512,
+                "height": 512,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": true
+              }
+            ],
+            "message": "全部为 2 的幂次"
+          }
+        ],
+        "note": "合规对照样本，来自 Kenney apple.glb，已赋规范文件名。"
+      },
+      {
+        "id": "compliant_tree",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 147.48298300037277,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_env_tree_lod0_v001.glb",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "format",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "glb",
+            "message": "格式允许"
+          },
+          {
+            "check_id": "file_size",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 23476,
+            "message": "23476 字节，上限 8.0 MB"
+          },
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          },
+          {
+            "check_id": "poly_budget",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 182,
+            "message": "三角面 182，LOD0 预算 2500"
+          },
+          {
+            "check_id": "texture_power_of_two_3d",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": [
+              {
+                "name": "colormap",
+                "uri": "Textures/colormap.png",
+                "resolution": "512x512",
+                "width": 512,
+                "height": 512,
+                "slots": [
+                  "baseColorTexture"
+                ],
+                "mimeType": "image/png",
+                "power_of_two": true
+              }
+            ],
+            "message": "全部为 2 的幂次"
+          }
+        ],
+        "note": "合规对照样本，来自 Kenney tree.glb，已赋规范文件名。"
+      },
+      {
+        "id": "compliant_colormap",
+        "overall_expected": "pass",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 0.26159000117331743,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_tex_colormapref_lod0_v001.png",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "image_power_of_two",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "width": 512,
+              "height": 512
+            },
+            "message": "是 2 的幂次"
+          },
+          {
+            "check_id": "image_max_side",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": 512,
+            "message": "最长边 512，上限 2048"
+          }
+        ],
+        "note": "Kenney colormap 512×512，合规 POT 贴图对照。"
+      },
+      {
+        "id": "style_drift_realistic_in_stylized",
+        "overall_expected": "warn",
+        "overall_pred": "pass",
+        "should_block": false,
+        "duration_ms": 0.21354100135795306,
+        "checks": [
+          {
+            "check_id": "naming",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": "m_prp_camerafancy_lod0_v001.png",
+            "message": "符合命名规范"
+          },
+          {
+            "check_id": "style_drift",
+            "status": "fail",
+            "severity": "warn",
+            "layer": "visual",
+            "skipped_reason": "规则层评测排除视觉项"
+          }
+        ],
+        "note": "把 Poly Haven 写实缩略图用风格化模板的规范名提交。规则层不应 block；VLM mock 给风格漂移 warn。"
+      },
+      {
+        "id": "khronos_valid_sample",
+        "overall_expected": "block",
+        "overall_pred": "block",
+        "should_block": null,
+        "duration_ms": 142.32789800007595,
+        "checks": [
+          {
+            "check_id": "gltf_valid",
+            "expected": "pass",
+            "predicted": "pass",
+            "outcome": "tn",
+            "measured": {
+              "num_errors": 0,
+              "num_warnings": 0
+            },
+            "message": "通过（errors=0, warnings=0）"
+          }
+        ],
+        "note": "Khronos 样本 /workspace/artgate/data/raw/khronos-gltf-sample-assets/Models/Box/glTF-Binary/Box.glb，用于确认官方校验器在合规文件上通过。许可见 data/licenses.md。不计入误拦率。"
+      }
+    ]
+  },
+  "badcases": [
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-001",
+      "query": "一把剑",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:weapon/knife_sharp.glb', 'stylized_mobile:kenney:weapon/knife_smooth.glb', 'stylized_mobile:kenney:weapon/knifeRound_sharp.glb', 'stylized_mobile:kenney:weapon/knifeRound_smooth.glb', 'stylized_mobile:kenney:food/cooking-knife.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-002",
+      "query": "圆形盾牌",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/pot-stew-lid.glb', 'stylized_mobile:kenney:mini-forest/target.glb', 'stylized_mobile:kenney:food/pot-lid.glb', 'stylized_mobile:kenney:platformer/spring.glb', 'stylized_mobile:kenney:food/plate-broken.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-003",
+      "query": "长方形盾牌",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/cutting-board.glb', 'stylized_mobile:kenney:food/popsicle-stick.glb', 'stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png', 'stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png', 'stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-004",
+      "query": "长矛",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/cooking-knife.glb', 'stylized_mobile:kenney:food/chopstic-decorative.glb', 'stylized_mobile:kenney:weapon/knife_sharp.glb', 'stylized_mobile:kenney:food/chopstick.glb', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb1.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-005",
+      "query": "一把弓",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:mini-forest/target.glb', 'stylized_mobile:kenney:castle/siege-ballista-demolished.glb', 'stylized_mobile:kenney:mini-forest/fence.glb', 'stylized_mobile:kenney:platformer/key.glb', 'stylized_mobile:kenney:food/whole-ham.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-006",
+      "query": "一支箭",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/cooking-knife.glb', 'stylized_mobile:kenney:food/corn-dog.glb', 'stylized_mobile:kenney:food/whole-ham.glb', 'stylized_mobile:kenney:food/pepper.glb', 'stylized_mobile:kenney:food/chopstic-decorative.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-007",
+      "query": "兽人角色",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:2d/Toon Characters/character_zombie_attack0.png', 'stylized_mobile:kenney:mini-dungeon/character-human.glb', 'stylized_mobile:kenney:2d/Toon Characters/character_zombie_talk.png', 'stylized_mobile:kenney:2d/Toon Characters/character_zombie_switch0.png', 'stylized_mobile:kenney:2d/Toon Characters/character_zombie_side.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-008",
+      "query": "人类角色",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_show.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb0.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-010",
+      "query": "男性角色",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack2.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png', 'stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_interact.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-012",
+      "query": "宝箱",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:platformer/lock.glb', 'stylized_mobile:kenney:mini-characters/aid-defibrillator-red.glb', 'stylized_mobile:kenney:castle/tower-square.glb', 'stylized_mobile:kenney:mini-dungeon/wall.glb', 'stylized_mobile:kenney:platformer/block-moving-blue.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索召回偏低",
+      "id": "zh-014",
+      "query": "木桶",
+      "detail": "Recall@10=0.333，n_rel=3，返回前5 ['stylized_mobile:kenney:castle/wall-corner-half-tower.glb', 'stylized_mobile:kenney:castle/tower-base.glb', 'stylized_mobile:kenney:food/steamer.glb', 'stylized_mobile:kenney:platformer/fence-rope.glb', 'stylized_mobile:kenney:food/pancakes.glb']",
+      "next": "对照文件名基线，判断是模型问题还是过滤/金标问题。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-021",
+      "query": "弓箭手",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attack2.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb1.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_switch0.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb0.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_attackKick.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-022",
+      "query": "攻城投石机",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:platformer/lever.glb', 'stylized_mobile:kenney:castle/siege-tower.glb', 'stylized_mobile:kenney:castle/wall-narrow-stairs-rail.glb', 'stylized_mobile:kenney:food/pan-stew.glb', 'stylized_mobile:kenney:castle/siege-ram-demolished.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-023",
+      "query": "攻城槌",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:mini-forest/flag.glb', 'stylized_mobile:kenney:castle/flag-pennant.glb', 'stylized_mobile:kenney:castle/flag.glb', 'stylized_mobile:kenney:platformer/lever.glb', 'stylized_mobile:kenney:food/meat-tenderizer.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-031",
+      "query": "横向滑动条",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/bacon-raw.glb', 'stylized_mobile:kenney:food/bacon.glb', 'stylized_mobile:kenney:platformer/spike-block-wide.glb', 'stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png', 'stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索召回偏低",
+      "id": "zh-035",
+      "query": "游戏手柄图标",
+      "detail": "Recall@10=0.400，n_rel=5，返回前5 ['stylized_mobile:kenney:icons/Game Icons/exitLeft.png', 'stylized_mobile:kenney:icons/Game Icons/exitRight.png', 'stylized_mobile:kenney:icons/Game Icons/leaderboardsSimple.png', 'stylized_mobile:kenney:icons/Game Icons/trophy.png', 'stylized_mobile:kenney:icons/Game Icons/multiplayer.png']",
+      "next": "对照文件名基线，判断是模型问题还是过滤/金标问题。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-037",
+      "query": "牛油果",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/pear.glb', 'stylized_mobile:kenney:food/pear-half.glb', 'stylized_mobile:kenney:food/pineapple.glb', 'stylized_mobile:kenney:food/strawberry.glb', 'stylized_mobile:kenney:food/cauliflower.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-039",
+      "query": "吊桥",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:castle/flag-wide.glb', 'stylized_mobile:kenney:platformer/fence-rope.glb', 'stylized_mobile:kenney:mini-forest/fence.glb', 'stylized_mobile:kenney:platformer/fence-straight.glb', 'stylized_mobile:kenney:mini-dungeon/banner.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "zh-042",
+      "query": "地牢里的陷阱",
+      "lang": "zh",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:mini-dungeon/wall.glb', 'stylized_mobile:kenney:mini-dungeon/wall-narrow.glb', 'stylized_mobile:kenney:food/bowl-broth.glb', 'stylized_mobile:kenney:platformer/crate-strong.glb', 'stylized_mobile:kenney:platformer/crate-item-strong.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-001",
+      "query": "a sword",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:weapon/knifeRound_sharp.glb', 'stylized_mobile:kenney:weapon/knife_sharp.glb', 'stylized_mobile:kenney:weapon/knife_smooth.glb', 'stylized_mobile:kenney:food/cooking-knife.glb', 'stylized_mobile:kenney:weapon/knifeRound_smooth.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-008",
+      "query": "treasure chest",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:platformer/lock.glb', 'stylized_mobile:kenney:castle/wall-corner-half-tower.glb', 'stylized_mobile:kenney:mini-characters/aid-defibrillator-red.glb', 'stylized_mobile:kenney:mini-characters/aid-defibrillator-green.glb', 'stylized_mobile:kenney:castle/tower-square.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-013",
+      "query": "bow and arrow",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:castle/siege-ballista-demolished.glb', 'stylized_mobile:kenney:icons/Game Icons/upRight.png', 'stylized_mobile:kenney:icons/Game Icons/upLeft.png', 'stylized_mobile:kenney:2d/Toon Characters/character_maleAdventurer_climb0.png', 'stylized_mobile:kenney:ui/UI Pack/icon_outline_checkmark.png']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-019",
+      "query": "avocado",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/pear-half.glb', 'stylized_mobile:kenney:food/pear.glb', 'stylized_mobile:kenney:food/cauliflower.glb', 'stylized_mobile:kenney:food/beet.glb', 'stylized_mobile:kenney:food/corn.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-022",
+      "query": "drawbridge",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:castle/flag-wide.glb', 'stylized_mobile:kenney:castle/bridge-straight.glb', 'stylized_mobile:kenney:mini-dungeon/banner.glb', 'stylized_mobile:kenney:castle/wall-narrow-gate.glb', 'stylized_mobile:kenney:mini-forest/building-structure.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    },
+    {
+      "bucket": "检索完全未召回",
+      "id": "en-024",
+      "query": "a spear",
+      "lang": "en",
+      "modality": "text",
+      "detail": "Recall@10=0，返回 ['stylized_mobile:kenney:food/corn-dog.glb', 'stylized_mobile:kenney:food/cooking-knife.glb', 'stylized_mobile:kenney:weapon/knife_sharp.glb', 'stylized_mobile:kenney:weapon/knifeRound_sharp.glb', 'stylized_mobile:kenney:weapon/knife_smooth.glb']",
+      "next": "人工看预览是否域偏移、中文术语或金标本身有问题（金标待审）。"
+    }
+  ],
+  "machine": "OS=Linux-6.12.113+-x86_64-with-glibc2.41 Python=3.13.5 CPU=x86_64 nproc=8 MemTotal:       16386416 kB"
+}

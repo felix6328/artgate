@@ -1,0 +1,92 @@
+# 模板 M：手游风格化低模。用 Kenney CC0 风格化资产模拟。
+# 面数预算来自对本仓库所选 Kenney 子集的实测分布（2026-11-13）：
+#   n=539 glb，三角面 min=2, p50=140, p95=880, max=1660。
+# 预算取在最大合规样本之上、故意超标测试资产之下，换项目只换本文件，不改代码。
+project_id: stylized_mobile
+name: 风格化手游低模
+name_en: Stylized Mobile Low-Poly
+style: stylized
+description: 面向卡通 / 低模手游的入库规范。面数与贴图上限较低，命名带项目前缀 m_。
+
+asset_types:
+  - character
+  - weapon
+  - environment
+  - prop
+  - ui
+  - texture
+  - vfx
+
+naming:
+  # m_{type}_{name}_lod{0-2}_v{三位版本}.{ext}
+  pattern: '^m_(chr|wpn|env|prp|ui|tex|vfx)_[a-z0-9]+_lod[0-2]_v[0-9]{3}\.(glb|gltf|png|jpg|jpeg)$'
+  type_prefix:
+    character: chr
+    weapon: wpn
+    environment: env
+    prop: prp
+    ui: ui
+    texture: tex
+    vfx: vfx
+  example: m_wpn_sword_lod0_v001.glb
+  description: 项目前缀 m、类型缩写、小写英文名、LOD、三位版本号。
+
+allowed_formats:
+  - glb
+  - gltf
+  - png
+  - jpg
+  - jpeg
+  # ktx2 在本模板不允许（与写实模板形成差异）
+max_file_size_mb: 8
+
+# 按类型 / LOD 的三角面预算（单位：三角形数，来自 glTF-Transform glPrimitives 或等价工具）
+poly_budget:
+  default: {lod0: 2000, lod1: 1000, lod2: 400}
+  character: {lod0: 2000, lod1: 1000, lod2: 400}
+  weapon: {lod0: 2000, lod1: 1000, lod2: 400}
+  environment: {lod0: 2500, lod1: 1200, lod2: 500}
+  prop: {lod0: 2000, lod1: 1000, lod2: 400}
+
+texture:
+  max_side: 2048
+  # 2 的幂次：只对 3D 模型贴图和 texture 类型强制。2D UI / 角色精灵通常不是 POT，
+  # 不应在风格化手游模板里一刀切拦截——这是产品判断，不是漏实现。
+  power_of_two:
+    texture: required
+    character: not_required   # 2D 精灵
+    weapon: not_required      # 2D 图标
+    environment: not_required
+    prop: not_required
+    ui: not_required
+    vfx: not_required
+    "3d_model_texture": required   # 从 glTF 抽出的贴图分辨率
+  required_channels: []   # 风格化低模常用一张 colormap，不强制 PBR 通道
+  allowed_color_spaces: [sRGB, linear]
+
+# 各检查项严重级别。block = 确定性错误，不能直接入库（可申诉）；warn = 进人工队列。
+checks:
+  naming: block
+  format: block
+  file_size: block
+  image_power_of_two: block          # 仅当该类型要求 POT 时生效
+  image_max_side: block
+  gltf_valid: block                  # 仅官方校验器 error；warning 不 block
+  poly_budget: block
+  texture_max_side_3d: block
+  texture_power_of_two_3d: block
+  required_channels: block
+  name_content_mismatch: warn        # VLM，默认 warn
+  style_drift: warn                  # VLM，默认 warn
+
+style_reference:
+  # 构建库时从 Kenney 预览中挑选，路径相对于仓库根；没有则留空。
+  description: Kenney 低模卡通风格参考板
+  images: []   # 由 build_library.py 填入实际预览路径
+
+search_defaults:
+  isolate_project: true
+  filter_fields: [asset_type, format, triangle_min, triangle_max]
+
+# 误拦率达到此门槛之前，不允许项目把视觉项升为 block。【完成后用数据定】
+visual_promote_to_block_max_false_block_rate: null

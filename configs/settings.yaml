@@ -1,0 +1,41 @@
+# ArtGate 运行时设置。模型名按 OpenCLIP 官方预训练表，不要改成英文 CLIP。
+embedder:
+  model_name: xlm-roberta-base-ViT-B-32
+  pretrained: laion5b_s13b_b90k
+  device: cpu
+  batch_size: 4
+  # 图像边长由 OpenCLIP transform 决定（ViT-B/32 为 224）
+  cache_dir: data/embed_cache
+
+search:
+  default_top_k: 10
+  # 过短或过宽的查询：仍检索，但界面提示补充过滤条件
+  broad_query_max_tokens: 1
+  broad_query_examples: ["武器", "道具", "树", "weapon", "food", "tree", "UI"]
+
+vlm:
+  # disabled | mock | openai_compat
+  backend: disabled
+  confidence_threshold: 0.6
+  # openai_compat 时使用：环境变量 ARTGATE_VLM_API_KEY 或 OPENAI_API_KEY
+  base_url: ""
+  model: ""
+  timeout_sec: 30
+  # 只传缩略图，最长边
+  thumbnail_max_side: 512
+  estimated_cny_per_call: 0.03   # 【假设】仅用于看板展示，不是实测账单
+
+precheck:
+  # 只有官方校验器的 severity=0（error）才可作为 block；warning 不得升为 block
+  validator_block_on: [error]
+  tool_failure_policy: defer_to_human   # 不得改由 LLM 替代
+
+review:
+  # 入可检索库之前必须经过确认；种子库用 seed_approve 模拟「已在生产库」
+  required_reason: true
+
+projects:
+  stylized_mobile:
+    template: configs/templates/stylized_mobile.yaml
+  realistic:
+    template: configs/templates/realistic.yaml

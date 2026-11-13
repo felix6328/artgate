@@ -1,0 +1,25 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.cache/
+data/raw/
+data/previews/
+data/incoming/
+data/lancedb/
+data/embed_cache/
+data/artgate.db
+data/artgate.db-wal
+data/artgate.db-shm
+data/cost.jsonl
+*.lance
+hf_cache/
+.openclip_cache/
+.python-version
+.DS_Store
+# 17MB injected size-limit fixture; regenerate with scripts/create_broken_assets.py
+data/broken/oversized/*.png
+data/broken/oversized/*.jpg
+*.egg-info/

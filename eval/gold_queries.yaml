@@ -1,0 +1,3015 @@
+status: auto_drafted_needs_review
+warning: 这些查询和相关资产是脚本根据文件名 / 包名 / 类型自动起草的，必须由作者人工审阅后才能作为面试口径。生成时没有参考任何检索结果。
+n_queries: 95
+n_skipped: 0
+queries:
+- id: zh-001
+  query: 一把剑
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-sword.glb
+    grade: 2
+    filename: weapon-sword.glb
+  n_relevant: 1
+  note: ''
+- id: zh-002
+  query: 圆形盾牌
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-round.glb
+    grade: 2
+    filename: shield-round.glb
+  n_relevant: 1
+  note: 相近干扰：shield-rectangle
+- id: zh-003
+  query: 长方形盾牌
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-rectangle.glb
+    grade: 2
+    filename: shield-rectangle.glb
+  n_relevant: 1
+  note: ''
+- id: zh-004
+  query: 长矛
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-spear.glb
+    grade: 2
+    filename: weapon-spear.glb
+  n_relevant: 1
+  note: ''
+- id: zh-005
+  query: 一把弓
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-bow.glb
+    grade: 2
+    filename: weapon-bow.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-arrow.glb
+    grade: 1
+    filename: weapon-arrow.glb
+  n_relevant: 2
+  note: ''
+- id: zh-006
+  query: 一支箭
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-arrow.glb
+    grade: 2
+    filename: weapon-arrow.glb
+  - asset_id: stylized_mobile:kenney:platformer/arrow.glb
+    grade: 2
+    filename: arrow.glb
+  n_relevant: 2
+  note: ''
+- id: zh-007
+  query: 兽人角色
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/character-orc.glb
+    grade: 2
+    filename: character-orc.glb
+  n_relevant: 1
+  note: ''
+- id: zh-008
+  query: 人类角色
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/character-human.glb
+    grade: 2
+    filename: character-human.glb
+  n_relevant: 1
+  note: ''
+- id: zh-009
+  query: 女性角色
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-a.glb
+    grade: 2
+    filename: character-female-a.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-b.glb
+    grade: 2
+    filename: character-female-b.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-c.glb
+    grade: 2
+    filename: character-female-c.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-d.glb
+    grade: 2
+    filename: character-female-d.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-e.glb
+    grade: 2
+    filename: character-female-e.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-f.glb
+    grade: 2
+    filename: character-female-f.glb
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png
+    grade: 2
+    filename: character_femaleAdventurer_attack0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack1.png
+    grade: 2
+    filename: character_femaleAdventurer_attack1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack2.png
+    grade: 2
+    filename: character_femaleAdventurer_attack2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attackKick.png
+    grade: 2
+    filename: character_femaleAdventurer_attackKick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png
+    grade: 2
+    filename: character_femaleAdventurer_back.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_behindBack.png
+    grade: 2
+    filename: character_femaleAdventurer_behindBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer0.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer1.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb0.png
+    grade: 2
+    filename: character_femaleAdventurer_climb0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb1.png
+    grade: 2
+    filename: character_femaleAdventurer_climb1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_down.png
+    grade: 2
+    filename: character_femaleAdventurer_down.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_drag.png
+    grade: 2
+    filename: character_femaleAdventurer_drag.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_duck.png
+    grade: 2
+    filename: character_femaleAdventurer_duck.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fall.png
+    grade: 2
+    filename: character_femaleAdventurer_fall.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fallDown.png
+    grade: 2
+    filename: character_femaleAdventurer_fallDown.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hang.png
+    grade: 2
+    filename: character_femaleAdventurer_hang.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hit.png
+    grade: 2
+    filename: character_femaleAdventurer_hit.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png
+    grade: 2
+    filename: character_femaleAdventurer_hold.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png
+    grade: 2
+    filename: character_femaleAdventurer_hurt.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_idle.png
+    grade: 2
+    filename: character_femaleAdventurer_idle.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_interact.png
+    grade: 2
+    filename: character_femaleAdventurer_interact.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_jump.png
+    grade: 2
+    filename: character_femaleAdventurer_jump.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_kick.png
+    grade: 2
+    filename: character_femaleAdventurer_kick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_rope.png
+    grade: 2
+    filename: character_femaleAdventurer_rope.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run0.png
+    grade: 2
+    filename: character_femaleAdventurer_run0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run1.png
+    grade: 2
+    filename: character_femaleAdventurer_run1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run2.png
+    grade: 2
+    filename: character_femaleAdventurer_run2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shove.png
+    grade: 2
+    filename: character_femaleAdventurer_shove.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shoveBack.png
+    grade: 2
+    filename: character_femaleAdventurer_shoveBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_show.png
+    grade: 2
+    filename: character_femaleAdventurer_show.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_side.png
+    grade: 2
+    filename: character_femaleAdventurer_side.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_slide.png
+    grade: 2
+    filename: character_femaleAdventurer_slide.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch0.png
+    grade: 2
+    filename: character_femaleAdventurer_switch0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch1.png
+    grade: 2
+    filename: character_femaleAdventurer_switch1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_talk.png
+    grade: 2
+    filename: character_femaleAdventurer_talk.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_think.png
+    grade: 2
+    filename: character_femaleAdventurer_think.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk0.png
+    grade: 2
+    filename: character_femaleAdventurer_walk0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk1.png
+    grade: 2
+    filename: character_femaleAdventurer_walk1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk2.png
+    grade: 2
+    filename: character_femaleAdventurer_walk2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png
+    grade: 2
+    filename: character_femaleAdventurer_walk3.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png
+    grade: 2
+    filename: character_femaleAdventurer_walk4.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk5.png
+    grade: 2
+    filename: character_femaleAdventurer_walk5.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk6.png
+    grade: 2
+    filename: character_femaleAdventurer_walk6.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png
+    grade: 2
+    filename: character_femaleAdventurer_walk7.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_wide.png
+    grade: 2
+    filename: character_femaleAdventurer_wide.png
+  n_relevant: 51
+  note: ''
+- id: zh-010
+  query: 男性角色
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-a.glb
+    grade: 2
+    filename: character-male-a.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-b.glb
+    grade: 2
+    filename: character-male-b.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-c.glb
+    grade: 2
+    filename: character-male-c.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-d.glb
+    grade: 2
+    filename: character-male-d.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-e.glb
+    grade: 2
+    filename: character-male-e.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-male-f.glb
+    grade: 2
+    filename: character-male-f.glb
+  n_relevant: 6
+  note: ''
+- id: zh-011
+  query: 轮椅
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-deluxe.glb
+    grade: 2
+    filename: wheelchair-deluxe.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-power-deluxe.glb
+    grade: 2
+    filename: wheelchair-power-deluxe.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-power.glb
+    grade: 2
+    filename: wheelchair-power.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair.glb
+    grade: 2
+    filename: wheelchair.glb
+  n_relevant: 4
+  note: ''
+- id: zh-012
+  query: 宝箱
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/chest.glb
+    grade: 2
+    filename: chest.glb
+  - asset_id: stylized_mobile:kenney:platformer/chest.glb
+    grade: 2
+    filename: chest.glb
+  n_relevant: 2
+  note: ''
+- id: zh-013
+  query: 金币
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/coin.glb
+    grade: 2
+    filename: coin.glb
+  n_relevant: 1
+  note: ''
+- id: zh-014
+  query: 木桶
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  - asset_id: stylized_mobile:kenney:platformer/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  n_relevant: 3
+  note: 多个包里都有 barrel，都标为完全相关
+- id: zh-015
+  query: 苹果
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/apple-half.glb
+    grade: 2
+    filename: apple-half.glb
+  - asset_id: stylized_mobile:kenney:food/apple.glb
+    grade: 2
+    filename: apple.glb
+  n_relevant: 2
+  note: 干扰：avocado
+- id: zh-016
+  query: 香蕉
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/banana.glb
+    grade: 2
+    filename: banana.glb
+  n_relevant: 1
+  note: ''
+- id: zh-017
+  query: 汉堡
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/burger-cheese-double.glb
+    grade: 2
+    filename: burger-cheese-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger-cheese.glb
+    grade: 2
+    filename: burger-cheese.glb
+  - asset_id: stylized_mobile:kenney:food/burger-double.glb
+    grade: 2
+    filename: burger-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger.glb
+    grade: 2
+    filename: burger.glb
+  n_relevant: 4
+  note: ''
+- id: zh-018
+  query: 生日蛋糕
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/cake-birthday.glb
+    grade: 2
+    filename: cake-birthday.glb
+  - asset_id: stylized_mobile:kenney:food/cake.glb
+    grade: 1
+    filename: cake.glb
+  - asset_id: stylized_mobile:kenney:food/cupcake.glb
+    grade: 1
+    filename: cupcake.glb
+  n_relevant: 3
+  note: ''
+- id: zh-019
+  query: 一棵树
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/tree-high.glb
+    grade: 2
+    filename: tree-high.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/tree.glb
+    grade: 2
+    filename: tree.glb
+  - asset_id: stylized_mobile:kenney:platformer/tree.glb
+    grade: 2
+    filename: tree.glb
+  n_relevant: 3
+  note: ''
+- id: zh-020
+  query: 帐篷
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/tent.glb
+    grade: 2
+    filename: tent.glb
+  n_relevant: 1
+  note: ''
+- id: zh-021
+  query: 弓箭手
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/character-archer.glb
+    grade: 2
+    filename: character-archer.glb
+  n_relevant: 1
+  note: ''
+- id: zh-022
+  query: 攻城投石机
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult.glb
+    grade: 2
+    filename: siege-catapult.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult-demolished.glb
+    grade: 1
+    filename: siege-catapult-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet-demolished.glb
+    grade: 1
+    filename: siege-trebuchet-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet.glb
+    grade: 1
+    filename: siege-trebuchet.glb
+  n_relevant: 4
+  note: ''
+- id: zh-023
+  query: 攻城槌
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/siege-ram.glb
+    grade: 2
+    filename: siege-ram.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ram-demolished.glb
+    grade: 1
+    filename: siege-ram-demolished.glb
+  n_relevant: 2
+  note: ''
+- id: zh-024
+  query: 手枪
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/pistol.glb
+    grade: 2
+    filename: pistol.glb
+  - asset_id: stylized_mobile:kenney:weapon/pistolSilencer.glb
+    grade: 2
+    filename: pistolSilencer.glb
+  n_relevant: 2
+  note: 风格化库里的 Kenney 手枪，不是 Poly Haven 写实手枪
+- id: zh-025
+  query: 狙击枪
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/sniper.glb
+    grade: 2
+    filename: sniper.glb
+  - asset_id: stylized_mobile:kenney:weapon/sniperSand.glb
+    grade: 2
+    filename: sniperSand.glb
+  n_relevant: 2
+  note: ''
+- id: zh-026
+  query: 火箭筒
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncher.glb
+    grade: 2
+    filename: rocketlauncher.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherModern.glb
+    grade: 2
+    filename: rocketlauncherModern.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherSide.glb
+    grade: 2
+    filename: rocketlauncherSide.glb
+  n_relevant: 3
+  note: ''
+- id: zh-027
+  query: 手榴弹
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/grenade.glb
+    grade: 2
+    filename: grenade.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeFlash.glb
+    grade: 2
+    filename: grenadeFlash.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeSmoke.glb
+    grade: 2
+    filename: grenadeSmoke.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeVintage.glb
+    grade: 2
+    filename: grenadeVintage.glb
+  n_relevant: 4
+  note: ''
+- id: zh-028
+  query: 金色冲锋枪
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/uziGold.glb
+    grade: 2
+    filename: uziGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongGold.glb
+    grade: 2
+    filename: uziLongGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencerGold.glb
+    grade: 2
+    filename: uziLongSilencerGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencerGold.glb
+    grade: 2
+    filename: uziSilencerGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uzi.glb
+    grade: 1
+    filename: uzi.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLong.glb
+    grade: 1
+    filename: uziLong.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencer.glb
+    grade: 1
+    filename: uziLongSilencer.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencer.glb
+    grade: 1
+    filename: uziSilencer.glb
+  n_relevant: 8
+  note: 近重复：金色与普通 uzi，靠颜色/装饰区分
+- id: zh-029
+  query: 矩形按钮
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png
+    grade: 2
+    filename: button_rectangle_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png
+    grade: 2
+    filename: button_rectangle_depth_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_flat.png
+    grade: 2
+    filename: button_rectangle_depth_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png
+    grade: 2
+    filename: button_rectangle_depth_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png
+    grade: 2
+    filename: button_rectangle_depth_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png
+    grade: 2
+    filename: button_rectangle_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png
+    grade: 2
+    filename: button_rectangle_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png
+    grade: 2
+    filename: button_rectangle_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png
+    grade: 2
+    filename: button_rectangle_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png
+    grade: 2
+    filename: button_rectangle_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png
+    grade: 2
+    filename: button_rectangle_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png
+    grade: 2
+    filename: button_rectangle_line.png
+  n_relevant: 12
+  note: ''
+- id: zh-030
+  query: 圆形按钮
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_border.png
+    grade: 2
+    filename: button_round_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_border.png
+    grade: 2
+    filename: button_round_depth_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_flat.png
+    grade: 2
+    filename: button_round_depth_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_gloss.png
+    grade: 2
+    filename: button_round_depth_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_gradient.png
+    grade: 2
+    filename: button_round_depth_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_line.png
+    grade: 2
+    filename: button_round_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_flat.png
+    grade: 2
+    filename: button_round_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_gloss.png
+    grade: 2
+    filename: button_round_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_gradient.png
+    grade: 2
+    filename: button_round_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_line.png
+    grade: 2
+    filename: button_round_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_line.png
+    grade: 2
+    filename: button_round_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_line.png
+    grade: 2
+    filename: button_round_line.png
+  n_relevant: 12
+  note: ''
+- id: zh-031
+  query: 横向滑动条
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_color.png
+    grade: 2
+    filename: slide_horizontal_color.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_color_section.png
+    grade: 2
+    filename: slide_horizontal_color_section.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_color_section_wide.png
+    grade: 2
+    filename: slide_horizontal_color_section_wide.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_grey.png
+    grade: 2
+    filename: slide_horizontal_grey.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_grey_section.png
+    grade: 2
+    filename: slide_horizontal_grey_section.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/slide_horizontal_grey_section_wide.png
+    grade: 2
+    filename: slide_horizontal_grey_section_wide.png
+  n_relevant: 6
+  note: ''
+- id: zh-032
+  query: 勾选框
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_round_color.png
+    grade: 2
+    filename: check_round_color.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_round_grey.png
+    grade: 2
+    filename: check_round_grey.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_round_grey_circle.png
+    grade: 2
+    filename: check_round_grey_circle.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_round_round_circle.png
+    grade: 2
+    filename: check_round_round_circle.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_color.png
+    grade: 2
+    filename: check_square_color.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_color_checkmark.png
+    grade: 2
+    filename: check_square_color_checkmark.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_color_cross.png
+    grade: 2
+    filename: check_square_color_cross.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_color_square.png
+    grade: 2
+    filename: check_square_color_square.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_grey.png
+    grade: 2
+    filename: check_square_grey.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_grey_checkmark.png
+    grade: 2
+    filename: check_square_grey_checkmark.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_grey_cross.png
+    grade: 2
+    filename: check_square_grey_cross.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/check_square_grey_square.png
+    grade: 2
+    filename: check_square_grey_square.png
+  n_relevant: 12
+  note: ''
+- id: zh-033
+  query: 奖杯图标
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/trophy.png
+    grade: 2
+    filename: trophy.png
+  n_relevant: 1
+  note: ''
+- id: zh-034
+  query: 星星图标
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/star.png
+    grade: 2
+    filename: star.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/star.png
+    grade: 2
+    filename: star.png
+  n_relevant: 2
+  note: ''
+- id: zh-035
+  query: 游戏手柄图标
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/gamepad.png
+    grade: 2
+    filename: gamepad.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/gamepad1.png
+    grade: 2
+    filename: gamepad1.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/gamepad2.png
+    grade: 2
+    filename: gamepad2.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/gamepad3.png
+    grade: 2
+    filename: gamepad3.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/gamepad4.png
+    grade: 2
+    filename: gamepad4.png
+  n_relevant: 5
+  note: ''
+- id: zh-036
+  query: 纸杯蛋糕
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/cupcake.glb
+    grade: 2
+    filename: cupcake.glb
+  n_relevant: 1
+  note: ''
+- id: zh-037
+  query: 牛油果
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/advocado-half.glb
+    grade: 2
+    filename: advocado-half.glb
+  - asset_id: stylized_mobile:kenney:food/avocado.glb
+    grade: 2
+    filename: avocado.glb
+  n_relevant: 2
+  note: 与苹果外形接近，是难点。Kenney 有拼写 advocado-half。
+- id: zh-038
+  query: 西瓜
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/watermelon.glb
+    grade: 2
+    filename: watermelon.glb
+  n_relevant: 1
+  note: ''
+- id: zh-039
+  query: 吊桥
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/bridge-draw.glb
+    grade: 2
+    filename: bridge-draw.glb
+  - asset_id: stylized_mobile:kenney:castle/bridge-straight-pillar.glb
+    grade: 1
+    filename: bridge-straight-pillar.glb
+  - asset_id: stylized_mobile:kenney:castle/bridge-straight.glb
+    grade: 1
+    filename: bridge-straight.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/bridge.glb
+    grade: 1
+    filename: bridge.glb
+  n_relevant: 4
+  note: ''
+- id: zh-040
+  query: 城堡旗帜
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/flag-banner-long.glb
+    grade: 2
+    filename: flag-banner-long.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-banner-short.glb
+    grade: 2
+    filename: flag-banner-short.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-pennant.glb
+    grade: 2
+    filename: flag-pennant.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-wide.glb
+    grade: 2
+    filename: flag-wide.glb
+  - asset_id: stylized_mobile:kenney:castle/flag.glb
+    grade: 2
+    filename: flag.glb
+  n_relevant: 5
+  note: ''
+- id: zh-041
+  query: 梯子
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/ladder.glb
+    grade: 2
+    filename: ladder.glb
+  - asset_id: stylized_mobile:kenney:platformer/ladder.glb
+    grade: 2
+    filename: ladder.glb
+  n_relevant: 2
+  note: ''
+- id: zh-042
+  query: 地牢里的陷阱
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/trap.glb
+    grade: 2
+    filename: trap.glb
+  n_relevant: 1
+  note: ''
+- id: zh-043
+  query: 火焰喷射器
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_long.glb
+    grade: 2
+    filename: flamethrower_long.glb
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_short.glb
+    grade: 2
+    filename: flamethrower_short.glb
+  n_relevant: 2
+  note: ''
+- id: zh-044
+  query: 卡通风格的女性冒险者
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png
+    grade: 2
+    filename: character_femaleAdventurer_attack0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack1.png
+    grade: 2
+    filename: character_femaleAdventurer_attack1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack2.png
+    grade: 2
+    filename: character_femaleAdventurer_attack2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attackKick.png
+    grade: 2
+    filename: character_femaleAdventurer_attackKick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png
+    grade: 2
+    filename: character_femaleAdventurer_back.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_behindBack.png
+    grade: 2
+    filename: character_femaleAdventurer_behindBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer0.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer1.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb0.png
+    grade: 2
+    filename: character_femaleAdventurer_climb0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb1.png
+    grade: 2
+    filename: character_femaleAdventurer_climb1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_down.png
+    grade: 2
+    filename: character_femaleAdventurer_down.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_drag.png
+    grade: 2
+    filename: character_femaleAdventurer_drag.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_duck.png
+    grade: 2
+    filename: character_femaleAdventurer_duck.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fall.png
+    grade: 2
+    filename: character_femaleAdventurer_fall.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fallDown.png
+    grade: 2
+    filename: character_femaleAdventurer_fallDown.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hang.png
+    grade: 2
+    filename: character_femaleAdventurer_hang.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hit.png
+    grade: 2
+    filename: character_femaleAdventurer_hit.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png
+    grade: 2
+    filename: character_femaleAdventurer_hold.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png
+    grade: 2
+    filename: character_femaleAdventurer_hurt.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_idle.png
+    grade: 2
+    filename: character_femaleAdventurer_idle.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_interact.png
+    grade: 2
+    filename: character_femaleAdventurer_interact.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_jump.png
+    grade: 2
+    filename: character_femaleAdventurer_jump.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_kick.png
+    grade: 2
+    filename: character_femaleAdventurer_kick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_rope.png
+    grade: 2
+    filename: character_femaleAdventurer_rope.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run0.png
+    grade: 2
+    filename: character_femaleAdventurer_run0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run1.png
+    grade: 2
+    filename: character_femaleAdventurer_run1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run2.png
+    grade: 2
+    filename: character_femaleAdventurer_run2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shove.png
+    grade: 2
+    filename: character_femaleAdventurer_shove.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shoveBack.png
+    grade: 2
+    filename: character_femaleAdventurer_shoveBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_show.png
+    grade: 2
+    filename: character_femaleAdventurer_show.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_side.png
+    grade: 2
+    filename: character_femaleAdventurer_side.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_slide.png
+    grade: 2
+    filename: character_femaleAdventurer_slide.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch0.png
+    grade: 2
+    filename: character_femaleAdventurer_switch0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch1.png
+    grade: 2
+    filename: character_femaleAdventurer_switch1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_talk.png
+    grade: 2
+    filename: character_femaleAdventurer_talk.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_think.png
+    grade: 2
+    filename: character_femaleAdventurer_think.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk0.png
+    grade: 2
+    filename: character_femaleAdventurer_walk0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk1.png
+    grade: 2
+    filename: character_femaleAdventurer_walk1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk2.png
+    grade: 2
+    filename: character_femaleAdventurer_walk2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png
+    grade: 2
+    filename: character_femaleAdventurer_walk3.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png
+    grade: 2
+    filename: character_femaleAdventurer_walk4.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk5.png
+    grade: 2
+    filename: character_femaleAdventurer_walk5.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk6.png
+    grade: 2
+    filename: character_femaleAdventurer_walk6.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png
+    grade: 2
+    filename: character_femaleAdventurer_walk7.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_wide.png
+    grade: 2
+    filename: character_femaleAdventurer_wide.png
+  n_relevant: 45
+  note: Toon Characters 文件名是 character_femaleAdventurer_*.png
+- id: zh-045
+  query: 音乐开关图标
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/musicOff.png
+    grade: 2
+    filename: musicOff.png
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/musicOn.png
+    grade: 2
+    filename: musicOn.png
+  n_relevant: 2
+  note: ''
+- id: en-001
+  query: a sword
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-sword.glb
+    grade: 2
+    filename: weapon-sword.glb
+  n_relevant: 1
+  note: ''
+- id: en-002
+  query: a round shield
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-round.glb
+    grade: 2
+    filename: shield-round.glb
+  n_relevant: 1
+  note: ''
+- id: en-003
+  query: an orc character
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/character-orc.glb
+    grade: 2
+    filename: character-orc.glb
+  n_relevant: 1
+  note: ''
+- id: en-004
+  query: birthday cake
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/cake-birthday.glb
+    grade: 2
+    filename: cake-birthday.glb
+  - asset_id: stylized_mobile:kenney:food/cake.glb
+    grade: 1
+    filename: cake.glb
+  - asset_id: stylized_mobile:kenney:food/cupcake.glb
+    grade: 1
+    filename: cupcake.glb
+  n_relevant: 3
+  note: ''
+- id: en-005
+  query: a pistol
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/pistol.glb
+    grade: 2
+    filename: pistol.glb
+  - asset_id: stylized_mobile:kenney:weapon/pistolSilencer.glb
+    grade: 2
+    filename: pistolSilencer.glb
+  n_relevant: 2
+  note: ''
+- id: en-006
+  query: sniper rifle
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/sniper.glb
+    grade: 2
+    filename: sniper.glb
+  - asset_id: stylized_mobile:kenney:weapon/sniperSand.glb
+    grade: 2
+    filename: sniperSand.glb
+  n_relevant: 2
+  note: ''
+- id: en-007
+  query: wooden barrel
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  - asset_id: stylized_mobile:kenney:platformer/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  n_relevant: 3
+  note: ''
+- id: en-008
+  query: treasure chest
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/chest.glb
+    grade: 2
+    filename: chest.glb
+  - asset_id: stylized_mobile:kenney:platformer/chest.glb
+    grade: 2
+    filename: chest.glb
+  n_relevant: 2
+  note: ''
+- id: en-009
+  query: a cartoon tree
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/tree-high.glb
+    grade: 2
+    filename: tree-high.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/tree.glb
+    grade: 2
+    filename: tree.glb
+  - asset_id: stylized_mobile:kenney:platformer/tree.glb
+    grade: 2
+    filename: tree.glb
+  n_relevant: 3
+  note: ''
+- id: en-010
+  query: wheelchair
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-deluxe.glb
+    grade: 2
+    filename: wheelchair-deluxe.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-power-deluxe.glb
+    grade: 2
+    filename: wheelchair-power-deluxe.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair-power.glb
+    grade: 2
+    filename: wheelchair-power.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/wheelchair.glb
+    grade: 2
+    filename: wheelchair.glb
+  n_relevant: 4
+  note: ''
+- id: en-011
+  query: UI button
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_border.png
+    grade: 2
+    filename: button_rectangle_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_border.png
+    grade: 2
+    filename: button_rectangle_depth_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_flat.png
+    grade: 2
+    filename: button_rectangle_depth_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gloss.png
+    grade: 2
+    filename: button_rectangle_depth_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_gradient.png
+    grade: 2
+    filename: button_rectangle_depth_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png
+    grade: 2
+    filename: button_rectangle_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png
+    grade: 2
+    filename: button_rectangle_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_gloss.png
+    grade: 2
+    filename: button_rectangle_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_gradient.png
+    grade: 2
+    filename: button_rectangle_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png
+    grade: 2
+    filename: button_rectangle_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_border.png
+    grade: 2
+    filename: button_round_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_border.png
+    grade: 2
+    filename: button_round_depth_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_flat.png
+    grade: 2
+    filename: button_round_depth_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_gloss.png
+    grade: 2
+    filename: button_round_depth_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_gradient.png
+    grade: 2
+    filename: button_round_depth_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_line.png
+    grade: 2
+    filename: button_round_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_flat.png
+    grade: 2
+    filename: button_round_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_gloss.png
+    grade: 2
+    filename: button_round_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_gradient.png
+    grade: 2
+    filename: button_round_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_line.png
+    grade: 2
+    filename: button_round_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_border.png
+    grade: 2
+    filename: button_square_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_border.png
+    grade: 2
+    filename: button_square_depth_border.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_flat.png
+    grade: 2
+    filename: button_square_depth_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_gloss.png
+    grade: 2
+    filename: button_square_depth_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_gradient.png
+    grade: 2
+    filename: button_square_depth_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_line.png
+    grade: 2
+    filename: button_square_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_flat.png
+    grade: 2
+    filename: button_square_flat.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_gloss.png
+    grade: 2
+    filename: button_square_gloss.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_gradient.png
+    grade: 2
+    filename: button_square_gradient.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_line.png
+    grade: 2
+    filename: button_square_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_depth_line.png
+    grade: 2
+    filename: button_rectangle_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_line.png
+    grade: 2
+    filename: button_rectangle_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_depth_line.png
+    grade: 2
+    filename: button_round_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_round_line.png
+    grade: 2
+    filename: button_round_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_depth_line.png
+    grade: 2
+    filename: button_square_depth_line.png
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_square_line.png
+    grade: 2
+    filename: button_square_line.png
+  n_relevant: 36
+  note: ''
+- id: en-012
+  query: hamburger
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/burger-cheese-double.glb
+    grade: 2
+    filename: burger-cheese-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger-cheese.glb
+    grade: 2
+    filename: burger-cheese.glb
+  - asset_id: stylized_mobile:kenney:food/burger-double.glb
+    grade: 2
+    filename: burger-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger.glb
+    grade: 2
+    filename: burger.glb
+  n_relevant: 4
+  note: ''
+- id: en-013
+  query: bow and arrow
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-arrow.glb
+    grade: 2
+    filename: weapon-arrow.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-bow.glb
+    grade: 2
+    filename: weapon-bow.glb
+  n_relevant: 2
+  note: ''
+- id: en-014
+  query: siege catapult
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult.glb
+    grade: 2
+    filename: siege-catapult.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ballista-demolished.glb
+    grade: 1
+    filename: siege-ballista-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ballista.glb
+    grade: 1
+    filename: siege-ballista.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult-demolished.glb
+    grade: 1
+    filename: siege-catapult-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ram-demolished.glb
+    grade: 1
+    filename: siege-ram-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ram.glb
+    grade: 1
+    filename: siege-ram.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-tower-demolished.glb
+    grade: 1
+    filename: siege-tower-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-tower.glb
+    grade: 1
+    filename: siege-tower.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet-demolished.glb
+    grade: 1
+    filename: siege-trebuchet-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet.glb
+    grade: 1
+    filename: siege-trebuchet.glb
+  n_relevant: 10
+  note: ''
+- id: en-015
+  query: gold uzi
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/uziGold.glb
+    grade: 2
+    filename: uziGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongGold.glb
+    grade: 2
+    filename: uziLongGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencerGold.glb
+    grade: 2
+    filename: uziLongSilencerGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencerGold.glb
+    grade: 2
+    filename: uziSilencerGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uzi.glb
+    grade: 1
+    filename: uzi.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLong.glb
+    grade: 1
+    filename: uziLong.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencer.glb
+    grade: 1
+    filename: uziLongSilencer.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencer.glb
+    grade: 1
+    filename: uziSilencer.glb
+  n_relevant: 8
+  note: ''
+- id: en-016
+  query: female character
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-a.glb
+    grade: 2
+    filename: character-female-a.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-b.glb
+    grade: 2
+    filename: character-female-b.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-c.glb
+    grade: 2
+    filename: character-female-c.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-d.glb
+    grade: 2
+    filename: character-female-d.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-e.glb
+    grade: 2
+    filename: character-female-e.glb
+  - asset_id: stylized_mobile:kenney:mini-characters/character-female-f.glb
+    grade: 2
+    filename: character-female-f.glb
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack0.png
+    grade: 2
+    filename: character_femaleAdventurer_attack0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack1.png
+    grade: 2
+    filename: character_femaleAdventurer_attack1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attack2.png
+    grade: 2
+    filename: character_femaleAdventurer_attack2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_attackKick.png
+    grade: 2
+    filename: character_femaleAdventurer_attackKick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_back.png
+    grade: 2
+    filename: character_femaleAdventurer_back.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_behindBack.png
+    grade: 2
+    filename: character_femaleAdventurer_behindBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer0.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_cheer1.png
+    grade: 2
+    filename: character_femaleAdventurer_cheer1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb0.png
+    grade: 2
+    filename: character_femaleAdventurer_climb0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_climb1.png
+    grade: 2
+    filename: character_femaleAdventurer_climb1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_down.png
+    grade: 2
+    filename: character_femaleAdventurer_down.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_drag.png
+    grade: 2
+    filename: character_femaleAdventurer_drag.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_duck.png
+    grade: 2
+    filename: character_femaleAdventurer_duck.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fall.png
+    grade: 2
+    filename: character_femaleAdventurer_fall.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_fallDown.png
+    grade: 2
+    filename: character_femaleAdventurer_fallDown.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hang.png
+    grade: 2
+    filename: character_femaleAdventurer_hang.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hit.png
+    grade: 2
+    filename: character_femaleAdventurer_hit.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hold.png
+    grade: 2
+    filename: character_femaleAdventurer_hold.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_hurt.png
+    grade: 2
+    filename: character_femaleAdventurer_hurt.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_idle.png
+    grade: 2
+    filename: character_femaleAdventurer_idle.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_interact.png
+    grade: 2
+    filename: character_femaleAdventurer_interact.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_jump.png
+    grade: 2
+    filename: character_femaleAdventurer_jump.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_kick.png
+    grade: 2
+    filename: character_femaleAdventurer_kick.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_rope.png
+    grade: 2
+    filename: character_femaleAdventurer_rope.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run0.png
+    grade: 2
+    filename: character_femaleAdventurer_run0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run1.png
+    grade: 2
+    filename: character_femaleAdventurer_run1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_run2.png
+    grade: 2
+    filename: character_femaleAdventurer_run2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shove.png
+    grade: 2
+    filename: character_femaleAdventurer_shove.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_shoveBack.png
+    grade: 2
+    filename: character_femaleAdventurer_shoveBack.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_show.png
+    grade: 2
+    filename: character_femaleAdventurer_show.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_side.png
+    grade: 2
+    filename: character_femaleAdventurer_side.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_slide.png
+    grade: 2
+    filename: character_femaleAdventurer_slide.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch0.png
+    grade: 2
+    filename: character_femaleAdventurer_switch0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_switch1.png
+    grade: 2
+    filename: character_femaleAdventurer_switch1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_talk.png
+    grade: 2
+    filename: character_femaleAdventurer_talk.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_think.png
+    grade: 2
+    filename: character_femaleAdventurer_think.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk0.png
+    grade: 2
+    filename: character_femaleAdventurer_walk0.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk1.png
+    grade: 2
+    filename: character_femaleAdventurer_walk1.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk2.png
+    grade: 2
+    filename: character_femaleAdventurer_walk2.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk3.png
+    grade: 2
+    filename: character_femaleAdventurer_walk3.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk4.png
+    grade: 2
+    filename: character_femaleAdventurer_walk4.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk5.png
+    grade: 2
+    filename: character_femaleAdventurer_walk5.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk6.png
+    grade: 2
+    filename: character_femaleAdventurer_walk6.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_walk7.png
+    grade: 2
+    filename: character_femaleAdventurer_walk7.png
+  - asset_id: stylized_mobile:kenney:2d/Toon Characters/character_femaleAdventurer_wide.png
+    grade: 2
+    filename: character_femaleAdventurer_wide.png
+  n_relevant: 51
+  note: ''
+- id: en-017
+  query: a tent
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/tent.glb
+    grade: 2
+    filename: tent.glb
+  n_relevant: 1
+  note: ''
+- id: en-018
+  query: apple
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/apple-half.glb
+    grade: 2
+    filename: apple-half.glb
+  - asset_id: stylized_mobile:kenney:food/apple.glb
+    grade: 2
+    filename: apple.glb
+  n_relevant: 2
+  note: ''
+- id: en-019
+  query: avocado
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/advocado-half.glb
+    grade: 2
+    filename: advocado-half.glb
+  - asset_id: stylized_mobile:kenney:food/avocado.glb
+    grade: 2
+    filename: avocado.glb
+  n_relevant: 2
+  note: ''
+- id: en-020
+  query: rocket launcher
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncher.glb
+    grade: 2
+    filename: rocketlauncher.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherModern.glb
+    grade: 2
+    filename: rocketlauncherModern.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherSide.glb
+    grade: 2
+    filename: rocketlauncherSide.glb
+  n_relevant: 3
+  note: ''
+- id: en-021
+  query: trophy icon
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/trophy.png
+    grade: 2
+    filename: trophy.png
+  n_relevant: 1
+  note: ''
+- id: en-022
+  query: drawbridge
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/bridge-draw.glb
+    grade: 2
+    filename: bridge-draw.glb
+  n_relevant: 1
+  note: ''
+- id: en-023
+  query: flamethrower
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_long.glb
+    grade: 2
+    filename: flamethrower_long.glb
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_short.glb
+    grade: 2
+    filename: flamethrower_short.glb
+  n_relevant: 2
+  note: ''
+- id: en-024
+  query: a spear
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-spear.glb
+    grade: 2
+    filename: weapon-spear.glb
+  n_relevant: 1
+  note: ''
+- id: en-025
+  query: checkpoint flag
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-forest/flag.glb
+    grade: 2
+    filename: flag.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-banner-long.glb
+    grade: 1
+    filename: flag-banner-long.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-banner-short.glb
+    grade: 1
+    filename: flag-banner-short.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-pennant.glb
+    grade: 1
+    filename: flag-pennant.glb
+  - asset_id: stylized_mobile:kenney:castle/flag-wide.glb
+    grade: 1
+    filename: flag-wide.glb
+  - asset_id: stylized_mobile:kenney:castle/flag.glb
+    grade: 1
+    filename: flag.glb
+  - asset_id: stylized_mobile:kenney:platformer/flag.glb
+    grade: 1
+    filename: flag.glb
+  n_relevant: 7
+  note: ''
+- id: zh-046
+  query: 一台复古相机
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf
+    grade: 2
+    filename: Camera_01_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-047
+  query: 写实风格的手枪
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf
+    grade: 2
+    filename: service_pistol_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-048
+  query: 皮沙发
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:sofa_02/sofa_02_1k.gltf
+    grade: 2
+    filename: sofa_02_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-049
+  query: 红酒瓶
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:wine_bottles_01/wine_bottles_01_1k.gltf
+    grade: 2
+    filename: wine_bottles_01_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-050
+  query: 砖墙贴图
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-texture:brick_wall_001/brick_wall_001_albedo_1k.jpg
+    grade: 2
+    filename: brick_wall_001_albedo_1k.jpg
+  n_relevant: 1
+  note: ''
+- id: en-026
+  query: vintage camera
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf
+    grade: 2
+    filename: Camera_01_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: en-027
+  query: a realistic pistol
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf
+    grade: 2
+    filename: service_pistol_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: en-028
+  query: wooden table
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:wooden_table_02/wooden_table_02_1k.gltf
+    grade: 2
+    filename: wooden_table_02_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: en-029
+  query: rusty metal texture
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-texture:rusty_metal_03/rusty_metal_03_albedo_1k.jpg
+    grade: 2
+    filename: rusty_metal_03_albedo_1k.jpg
+  n_relevant: 1
+  note: ''
+- id: en-030
+  query: horse statue
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:horse_statue_01/horse_statue_01_1k.gltf
+    grade: 2
+    filename: horse_statue_01_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-051
+  query: 办公桌
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:metal_office_desk/metal_office_desk_1k.gltf
+    grade: 2
+    filename: metal_office_desk_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-052
+  query: 墙上的钟
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:wall_clock/wall_clock_1k.gltf
+    grade: 2
+    filename: wall_clock_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: en-031
+  query: ceramic vase
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: easy
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:ceramic_vase_01/ceramic_vase_01_1k.gltf
+    grade: 2
+    filename: ceramic_vase_01_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: en-032
+  query: leather texture
+  lang: en
+  project_id: realistic
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-texture:leather_red_02/leather_red_02_ao_1k.jpg
+    grade: 2
+    filename: leather_red_02_ao_1k.jpg
+  n_relevant: 1
+  note: ''
+- id: zh-053
+  query: 螺栓步枪
+  lang: zh
+  project_id: realistic
+  modality: text
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf
+    grade: 2
+    filename: bolt_action_rifle_7_62_1k.gltf
+  n_relevant: 1
+  note: ''
+- id: zh-054
+  query: 武器
+  lang: zh
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:castle/siege-ballista-demolished.glb
+    grade: 2
+    filename: siege-ballista-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ballista.glb
+    grade: 2
+    filename: siege-ballista.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult-demolished.glb
+    grade: 2
+    filename: siege-catapult-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-catapult.glb
+    grade: 2
+    filename: siege-catapult.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ram-demolished.glb
+    grade: 2
+    filename: siege-ram-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-ram.glb
+    grade: 2
+    filename: siege-ram.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-tower-demolished.glb
+    grade: 2
+    filename: siege-tower-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-tower.glb
+    grade: 2
+    filename: siege-tower.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet-demolished.glb
+    grade: 2
+    filename: siege-trebuchet-demolished.glb
+  - asset_id: stylized_mobile:kenney:castle/siege-trebuchet.glb
+    grade: 2
+    filename: siege-trebuchet.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-corner.glb
+    grade: 2
+    filename: wall-narrow-corner.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-gate.glb
+    grade: 2
+    filename: wall-narrow-gate.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-stairs-rail.glb
+    grade: 2
+    filename: wall-narrow-stairs-rail.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-stairs.glb
+    grade: 2
+    filename: wall-narrow-stairs.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-wood-fence.glb
+    grade: 2
+    filename: wall-narrow-wood-fence.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow-wood.glb
+    grade: 2
+    filename: wall-narrow-wood.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-narrow.glb
+    grade: 2
+    filename: wall-narrow.glb
+  - asset_id: stylized_mobile:kenney:castle/wall-to-narrow.glb
+    grade: 2
+    filename: wall-to-narrow.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-broth.glb
+    grade: 2
+    filename: bowl-broth.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-cereal.glb
+    grade: 2
+    filename: bowl-cereal.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-soup.glb
+    grade: 2
+    filename: bowl-soup.glb
+  - asset_id: stylized_mobile:kenney:food/bowl.glb
+    grade: 2
+    filename: bowl.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-knife-chopping.glb
+    grade: 2
+    filename: cooking-knife-chopping.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-knife.glb
+    grade: 2
+    filename: cooking-knife.glb
+  - asset_id: stylized_mobile:kenney:food/knife-block.glb
+    grade: 2
+    filename: knife-block.glb
+  - asset_id: stylized_mobile:kenney:food/utensil-knife.glb
+    grade: 2
+    filename: utensil-knife.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-rectangle.glb
+    grade: 2
+    filename: shield-rectangle.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-round.glb
+    grade: 2
+    filename: shield-round.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/wall-narrow.glb
+    grade: 2
+    filename: wall-narrow.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-spear.glb
+    grade: 2
+    filename: weapon-spear.glb
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-sword.glb
+    grade: 2
+    filename: weapon-sword.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-arrow.glb
+    grade: 2
+    filename: weapon-arrow.glb
+  - asset_id: stylized_mobile:kenney:mini-forest/weapon-bow.glb
+    grade: 2
+    filename: weapon-bow.glb
+  - asset_id: stylized_mobile:kenney:platformer/arrow.glb
+    grade: 2
+    filename: arrow.glb
+  - asset_id: stylized_mobile:kenney:platformer/arrows.glb
+    grade: 2
+    filename: arrows.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_machinegun.glb
+    grade: 2
+    filename: ammo_machinegun.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_machinegunLauncher.glb
+    grade: 2
+    filename: ammo_machinegunLauncher.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_machinegunLauncherGreen.glb
+    grade: 2
+    filename: ammo_machinegunLauncherGreen.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_rocket.glb
+    grade: 2
+    filename: ammo_rocket.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_rocketModern.glb
+    grade: 2
+    filename: ammo_rocketModern.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_shotgun.glb
+    grade: 2
+    filename: ammo_shotgun.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_sniper.glb
+    grade: 2
+    filename: ammo_sniper.glb
+  - asset_id: stylized_mobile:kenney:weapon/ammo_uzi.glb
+    grade: 2
+    filename: ammo_uzi.glb
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_long.glb
+    grade: 2
+    filename: flamethrower_long.glb
+  - asset_id: stylized_mobile:kenney:weapon/flamethrower_short.glb
+    grade: 2
+    filename: flamethrower_short.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenade.glb
+    grade: 2
+    filename: grenade.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeFlash.glb
+    grade: 2
+    filename: grenadeFlash.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeSmoke.glb
+    grade: 2
+    filename: grenadeSmoke.glb
+  - asset_id: stylized_mobile:kenney:weapon/grenadeVintage.glb
+    grade: 2
+    filename: grenadeVintage.glb
+  - asset_id: stylized_mobile:kenney:weapon/knifeRound_sharp.glb
+    grade: 2
+    filename: knifeRound_sharp.glb
+  - asset_id: stylized_mobile:kenney:weapon/knifeRound_smooth.glb
+    grade: 2
+    filename: knifeRound_smooth.glb
+  - asset_id: stylized_mobile:kenney:weapon/knife_sharp.glb
+    grade: 2
+    filename: knife_sharp.glb
+  - asset_id: stylized_mobile:kenney:weapon/knife_smooth.glb
+    grade: 2
+    filename: knife_smooth.glb
+  - asset_id: stylized_mobile:kenney:weapon/machinegun.glb
+    grade: 2
+    filename: machinegun.glb
+  - asset_id: stylized_mobile:kenney:weapon/machinegunLauncher.glb
+    grade: 2
+    filename: machinegunLauncher.glb
+  - asset_id: stylized_mobile:kenney:weapon/pistol.glb
+    grade: 2
+    filename: pistol.glb
+  - asset_id: stylized_mobile:kenney:weapon/pistolSilencer.glb
+    grade: 2
+    filename: pistolSilencer.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncher.glb
+    grade: 2
+    filename: rocketlauncher.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherModern.glb
+    grade: 2
+    filename: rocketlauncherModern.glb
+  - asset_id: stylized_mobile:kenney:weapon/rocketlauncherSide.glb
+    grade: 2
+    filename: rocketlauncherSide.glb
+  - asset_id: stylized_mobile:kenney:weapon/shotgun.glb
+    grade: 2
+    filename: shotgun.glb
+  - asset_id: stylized_mobile:kenney:weapon/shotgunShort.glb
+    grade: 2
+    filename: shotgunShort.glb
+  - asset_id: stylized_mobile:kenney:weapon/sniper.glb
+    grade: 2
+    filename: sniper.glb
+  - asset_id: stylized_mobile:kenney:weapon/sniperSand.glb
+    grade: 2
+    filename: sniperSand.glb
+  - asset_id: stylized_mobile:kenney:weapon/uzi.glb
+    grade: 2
+    filename: uzi.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziGold.glb
+    grade: 2
+    filename: uziGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLong.glb
+    grade: 2
+    filename: uziLong.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongGold.glb
+    grade: 2
+    filename: uziLongGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencer.glb
+    grade: 2
+    filename: uziLongSilencer.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziLongSilencerGold.glb
+    grade: 2
+    filename: uziLongSilencerGold.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencer.glb
+    grade: 2
+    filename: uziSilencer.glb
+  - asset_id: stylized_mobile:kenney:weapon/uziSilencerGold.glb
+    grade: 2
+    filename: uziSilencerGold.glb
+  n_relevant: 72
+  note: 过宽查询：产品应提示加过滤。金标把类型=weapon 全部视为相关，Recall 会偏低或偏高都要如实记。
+- id: en-033
+  query: food
+  lang: en
+  project_id: stylized_mobile
+  modality: text
+  difficulty: hard
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/advocado-half.glb
+    grade: 2
+    filename: advocado-half.glb
+  - asset_id: stylized_mobile:kenney:food/apple-half.glb
+    grade: 2
+    filename: apple-half.glb
+  - asset_id: stylized_mobile:kenney:food/apple.glb
+    grade: 2
+    filename: apple.glb
+  - asset_id: stylized_mobile:kenney:food/avocado.glb
+    grade: 2
+    filename: avocado.glb
+  - asset_id: stylized_mobile:kenney:food/bacon-raw.glb
+    grade: 2
+    filename: bacon-raw.glb
+  - asset_id: stylized_mobile:kenney:food/bacon.glb
+    grade: 2
+    filename: bacon.glb
+  - asset_id: stylized_mobile:kenney:food/bag-flat.glb
+    grade: 2
+    filename: bag-flat.glb
+  - asset_id: stylized_mobile:kenney:food/bag.glb
+    grade: 2
+    filename: bag.glb
+  - asset_id: stylized_mobile:kenney:food/banana.glb
+    grade: 2
+    filename: banana.glb
+  - asset_id: stylized_mobile:kenney:food/barrel.glb
+    grade: 2
+    filename: barrel.glb
+  - asset_id: stylized_mobile:kenney:food/beet.glb
+    grade: 2
+    filename: beet.glb
+  - asset_id: stylized_mobile:kenney:food/bottle-ketchup.glb
+    grade: 2
+    filename: bottle-ketchup.glb
+  - asset_id: stylized_mobile:kenney:food/bottle-musterd.glb
+    grade: 2
+    filename: bottle-musterd.glb
+  - asset_id: stylized_mobile:kenney:food/bottle-oil.glb
+    grade: 2
+    filename: bottle-oil.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-broth.glb
+    grade: 2
+    filename: bowl-broth.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-cereal.glb
+    grade: 2
+    filename: bowl-cereal.glb
+  - asset_id: stylized_mobile:kenney:food/bowl-soup.glb
+    grade: 2
+    filename: bowl-soup.glb
+  - asset_id: stylized_mobile:kenney:food/bowl.glb
+    grade: 2
+    filename: bowl.glb
+  - asset_id: stylized_mobile:kenney:food/bread.glb
+    grade: 2
+    filename: bread.glb
+  - asset_id: stylized_mobile:kenney:food/broccoli.glb
+    grade: 2
+    filename: broccoli.glb
+  - asset_id: stylized_mobile:kenney:food/burger-cheese-double.glb
+    grade: 2
+    filename: burger-cheese-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger-cheese.glb
+    grade: 2
+    filename: burger-cheese.glb
+  - asset_id: stylized_mobile:kenney:food/burger-double.glb
+    grade: 2
+    filename: burger-double.glb
+  - asset_id: stylized_mobile:kenney:food/burger.glb
+    grade: 2
+    filename: burger.glb
+  - asset_id: stylized_mobile:kenney:food/cabbage.glb
+    grade: 2
+    filename: cabbage.glb
+  - asset_id: stylized_mobile:kenney:food/cake-birthday.glb
+    grade: 2
+    filename: cake-birthday.glb
+  - asset_id: stylized_mobile:kenney:food/cake-slicer.glb
+    grade: 2
+    filename: cake-slicer.glb
+  - asset_id: stylized_mobile:kenney:food/cake.glb
+    grade: 2
+    filename: cake.glb
+  - asset_id: stylized_mobile:kenney:food/can-open.glb
+    grade: 2
+    filename: can-open.glb
+  - asset_id: stylized_mobile:kenney:food/can-small.glb
+    grade: 2
+    filename: can-small.glb
+  - asset_id: stylized_mobile:kenney:food/can.glb
+    grade: 2
+    filename: can.glb
+  - asset_id: stylized_mobile:kenney:food/candy-bar-wrapper.glb
+    grade: 2
+    filename: candy-bar-wrapper.glb
+  - asset_id: stylized_mobile:kenney:food/candy-bar.glb
+    grade: 2
+    filename: candy-bar.glb
+  - asset_id: stylized_mobile:kenney:food/carrot.glb
+    grade: 2
+    filename: carrot.glb
+  - asset_id: stylized_mobile:kenney:food/carton-small.glb
+    grade: 2
+    filename: carton-small.glb
+  - asset_id: stylized_mobile:kenney:food/carton.glb
+    grade: 2
+    filename: carton.glb
+  - asset_id: stylized_mobile:kenney:food/cauliflower.glb
+    grade: 2
+    filename: cauliflower.glb
+  - asset_id: stylized_mobile:kenney:food/celery-stick.glb
+    grade: 2
+    filename: celery-stick.glb
+  - asset_id: stylized_mobile:kenney:food/cheese-cut.glb
+    grade: 2
+    filename: cheese-cut.glb
+  - asset_id: stylized_mobile:kenney:food/cheese-slicer.glb
+    grade: 2
+    filename: cheese-slicer.glb
+  - asset_id: stylized_mobile:kenney:food/cheese.glb
+    grade: 2
+    filename: cheese.glb
+  - asset_id: stylized_mobile:kenney:food/cherries.glb
+    grade: 2
+    filename: cherries.glb
+  - asset_id: stylized_mobile:kenney:food/chinese.glb
+    grade: 2
+    filename: chinese.glb
+  - asset_id: stylized_mobile:kenney:food/chocolate-wrapper.glb
+    grade: 2
+    filename: chocolate-wrapper.glb
+  - asset_id: stylized_mobile:kenney:food/chocolate.glb
+    grade: 2
+    filename: chocolate.glb
+  - asset_id: stylized_mobile:kenney:food/chopstic-decorative.glb
+    grade: 2
+    filename: chopstic-decorative.glb
+  - asset_id: stylized_mobile:kenney:food/chopstick.glb
+    grade: 2
+    filename: chopstick.glb
+  - asset_id: stylized_mobile:kenney:food/cocktail.glb
+    grade: 2
+    filename: cocktail.glb
+  - asset_id: stylized_mobile:kenney:food/coconut-half.glb
+    grade: 2
+    filename: coconut-half.glb
+  - asset_id: stylized_mobile:kenney:food/coconut.glb
+    grade: 2
+    filename: coconut.glb
+  - asset_id: stylized_mobile:kenney:food/cookie-chocolate.glb
+    grade: 2
+    filename: cookie-chocolate.glb
+  - asset_id: stylized_mobile:kenney:food/cookie.glb
+    grade: 2
+    filename: cookie.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-fork.glb
+    grade: 2
+    filename: cooking-fork.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-knife-chopping.glb
+    grade: 2
+    filename: cooking-knife-chopping.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-knife.glb
+    grade: 2
+    filename: cooking-knife.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-spatula.glb
+    grade: 2
+    filename: cooking-spatula.glb
+  - asset_id: stylized_mobile:kenney:food/cooking-spoon.glb
+    grade: 2
+    filename: cooking-spoon.glb
+  - asset_id: stylized_mobile:kenney:food/corn-dog.glb
+    grade: 2
+    filename: corn-dog.glb
+  - asset_id: stylized_mobile:kenney:food/corn.glb
+    grade: 2
+    filename: corn.glb
+  - asset_id: stylized_mobile:kenney:food/croissant.glb
+    grade: 2
+    filename: croissant.glb
+  - asset_id: stylized_mobile:kenney:food/cup-coffee.glb
+    grade: 2
+    filename: cup-coffee.glb
+  - asset_id: stylized_mobile:kenney:food/cup-saucer.glb
+    grade: 2
+    filename: cup-saucer.glb
+  - asset_id: stylized_mobile:kenney:food/cup-tea.glb
+    grade: 2
+    filename: cup-tea.glb
+  - asset_id: stylized_mobile:kenney:food/cup.glb
+    grade: 2
+    filename: cup.glb
+  - asset_id: stylized_mobile:kenney:food/cupcake.glb
+    grade: 2
+    filename: cupcake.glb
+  - asset_id: stylized_mobile:kenney:food/cutting-board-japanese.glb
+    grade: 2
+    filename: cutting-board-japanese.glb
+  - asset_id: stylized_mobile:kenney:food/cutting-board-round.glb
+    grade: 2
+    filename: cutting-board-round.glb
+  - asset_id: stylized_mobile:kenney:food/cutting-board.glb
+    grade: 2
+    filename: cutting-board.glb
+  - asset_id: stylized_mobile:kenney:food/dim-sum.glb
+    grade: 2
+    filename: dim-sum.glb
+  - asset_id: stylized_mobile:kenney:food/donut-chocolate.glb
+    grade: 2
+    filename: donut-chocolate.glb
+  - asset_id: stylized_mobile:kenney:food/donut-sprinkles.glb
+    grade: 2
+    filename: donut-sprinkles.glb
+  - asset_id: stylized_mobile:kenney:food/donut.glb
+    grade: 2
+    filename: donut.glb
+  - asset_id: stylized_mobile:kenney:food/egg-cooked.glb
+    grade: 2
+    filename: egg-cooked.glb
+  - asset_id: stylized_mobile:kenney:food/egg-cup.glb
+    grade: 2
+    filename: egg-cup.glb
+  - asset_id: stylized_mobile:kenney:food/egg-half.glb
+    grade: 2
+    filename: egg-half.glb
+  - asset_id: stylized_mobile:kenney:food/egg.glb
+    grade: 2
+    filename: egg.glb
+  - asset_id: stylized_mobile:kenney:food/eggplant.glb
+    grade: 2
+    filename: eggplant.glb
+  - asset_id: stylized_mobile:kenney:food/fish-bones.glb
+    grade: 2
+    filename: fish-bones.glb
+  - asset_id: stylized_mobile:kenney:food/fish.glb
+    grade: 2
+    filename: fish.glb
+  - asset_id: stylized_mobile:kenney:food/frappe.glb
+    grade: 2
+    filename: frappe.glb
+  - asset_id: stylized_mobile:kenney:food/fries-empty.glb
+    grade: 2
+    filename: fries-empty.glb
+  - asset_id: stylized_mobile:kenney:food/fries.glb
+    grade: 2
+    filename: fries.glb
+  - asset_id: stylized_mobile:kenney:food/frikandel-speciaal.glb
+    grade: 2
+    filename: frikandel-speciaal.glb
+  - asset_id: stylized_mobile:kenney:food/frying-pan-lid.glb
+    grade: 2
+    filename: frying-pan-lid.glb
+  - asset_id: stylized_mobile:kenney:food/frying-pan.glb
+    grade: 2
+    filename: frying-pan.glb
+  - asset_id: stylized_mobile:kenney:food/ginger-bread-cutter.glb
+    grade: 2
+    filename: ginger-bread-cutter.glb
+  - asset_id: stylized_mobile:kenney:food/ginger-bread.glb
+    grade: 2
+    filename: ginger-bread.glb
+  - asset_id: stylized_mobile:kenney:food/glass-wine.glb
+    grade: 2
+    filename: glass-wine.glb
+  - asset_id: stylized_mobile:kenney:food/glass.glb
+    grade: 2
+    filename: glass.glb
+  - asset_id: stylized_mobile:kenney:food/grapes.glb
+    grade: 2
+    filename: grapes.glb
+  - asset_id: stylized_mobile:kenney:food/honey.glb
+    grade: 2
+    filename: honey.glb
+  - asset_id: stylized_mobile:kenney:food/hot-dog-raw.glb
+    grade: 2
+    filename: hot-dog-raw.glb
+  - asset_id: stylized_mobile:kenney:food/hot-dog.glb
+    grade: 2
+    filename: hot-dog.glb
+  - asset_id: stylized_mobile:kenney:food/ice-cream-cne.glb
+    grade: 2
+    filename: ice-cream-cne.glb
+  - asset_id: stylized_mobile:kenney:food/ice-cream-cup.glb
+    grade: 2
+    filename: ice-cream-cup.glb
+  - asset_id: stylized_mobile:kenney:food/ice-cream-scoop-chocolate.glb
+    grade: 2
+    filename: ice-cream-scoop-chocolate.glb
+  - asset_id: stylized_mobile:kenney:food/ice-cream-scoop-mint.glb
+    grade: 2
+    filename: ice-cream-scoop-mint.glb
+  - asset_id: stylized_mobile:kenney:food/ice-cream.glb
+    grade: 2
+    filename: ice-cream.glb
+  - asset_id: stylized_mobile:kenney:food/knife-block.glb
+    grade: 2
+    filename: knife-block.glb
+  - asset_id: stylized_mobile:kenney:food/leek.glb
+    grade: 2
+    filename: leek.glb
+  - asset_id: stylized_mobile:kenney:food/lemon-half.glb
+    grade: 2
+    filename: lemon-half.glb
+  - asset_id: stylized_mobile:kenney:food/lemon.glb
+    grade: 2
+    filename: lemon.glb
+  - asset_id: stylized_mobile:kenney:food/loaf-baguette.glb
+    grade: 2
+    filename: loaf-baguette.glb
+  - asset_id: stylized_mobile:kenney:food/loaf-round.glb
+    grade: 2
+    filename: loaf-round.glb
+  - asset_id: stylized_mobile:kenney:food/loaf.glb
+    grade: 2
+    filename: loaf.glb
+  - asset_id: stylized_mobile:kenney:food/lollypop.glb
+    grade: 2
+    filename: lollypop.glb
+  - asset_id: stylized_mobile:kenney:food/maki-roe.glb
+    grade: 2
+    filename: maki-roe.glb
+  - asset_id: stylized_mobile:kenney:food/maki-salmon.glb
+    grade: 2
+    filename: maki-salmon.glb
+  - asset_id: stylized_mobile:kenney:food/maki-vegetable.glb
+    grade: 2
+    filename: maki-vegetable.glb
+  - asset_id: stylized_mobile:kenney:food/meat-cooked.glb
+    grade: 2
+    filename: meat-cooked.glb
+  - asset_id: stylized_mobile:kenney:food/meat-patty.glb
+    grade: 2
+    filename: meat-patty.glb
+  - asset_id: stylized_mobile:kenney:food/meat-raw.glb
+    grade: 2
+    filename: meat-raw.glb
+  - asset_id: stylized_mobile:kenney:food/meat-ribs.glb
+    grade: 2
+    filename: meat-ribs.glb
+  - asset_id: stylized_mobile:kenney:food/meat-sausage.glb
+    grade: 2
+    filename: meat-sausage.glb
+  - asset_id: stylized_mobile:kenney:food/meat-tenderizer.glb
+    grade: 2
+    filename: meat-tenderizer.glb
+  - asset_id: stylized_mobile:kenney:food/mincemeat-pie.glb
+    grade: 2
+    filename: mincemeat-pie.glb
+  - asset_id: stylized_mobile:kenney:food/mortar-pestle.glb
+    grade: 2
+    filename: mortar-pestle.glb
+  - asset_id: stylized_mobile:kenney:food/mortar.glb
+    grade: 2
+    filename: mortar.glb
+  - asset_id: stylized_mobile:kenney:food/muffin.glb
+    grade: 2
+    filename: muffin.glb
+  - asset_id: stylized_mobile:kenney:food/mug.glb
+    grade: 2
+    filename: mug.glb
+  - asset_id: stylized_mobile:kenney:food/mushroom-half.glb
+    grade: 2
+    filename: mushroom-half.glb
+  - asset_id: stylized_mobile:kenney:food/mushroom.glb
+    grade: 2
+    filename: mushroom.glb
+  - asset_id: stylized_mobile:kenney:food/mussel-open.glb
+    grade: 2
+    filename: mussel-open.glb
+  - asset_id: stylized_mobile:kenney:food/mussel.glb
+    grade: 2
+    filename: mussel.glb
+  - asset_id: stylized_mobile:kenney:food/onion-half.glb
+    grade: 2
+    filename: onion-half.glb
+  - asset_id: stylized_mobile:kenney:food/onion.glb
+    grade: 2
+    filename: onion.glb
+  - asset_id: stylized_mobile:kenney:food/orange.glb
+    grade: 2
+    filename: orange.glb
+  - asset_id: stylized_mobile:kenney:food/pan-stew.glb
+    grade: 2
+    filename: pan-stew.glb
+  - asset_id: stylized_mobile:kenney:food/pan.glb
+    grade: 2
+    filename: pan.glb
+  - asset_id: stylized_mobile:kenney:food/pancakes.glb
+    grade: 2
+    filename: pancakes.glb
+  - asset_id: stylized_mobile:kenney:food/paprika-slice.glb
+    grade: 2
+    filename: paprika-slice.glb
+  - asset_id: stylized_mobile:kenney:food/paprika.glb
+    grade: 2
+    filename: paprika.glb
+  - asset_id: stylized_mobile:kenney:food/peanut-butter.glb
+    grade: 2
+    filename: peanut-butter.glb
+  - asset_id: stylized_mobile:kenney:food/pear-half.glb
+    grade: 2
+    filename: pear-half.glb
+  - asset_id: stylized_mobile:kenney:food/pear.glb
+    grade: 2
+    filename: pear.glb
+  - asset_id: stylized_mobile:kenney:food/pepper-mill.glb
+    grade: 2
+    filename: pepper-mill.glb
+  - asset_id: stylized_mobile:kenney:food/pepper.glb
+    grade: 2
+    filename: pepper.glb
+  - asset_id: stylized_mobile:kenney:food/pie.glb
+    grade: 2
+    filename: pie.glb
+  - asset_id: stylized_mobile:kenney:food/pineapple.glb
+    grade: 2
+    filename: pineapple.glb
+  - asset_id: stylized_mobile:kenney:food/pizza-box.glb
+    grade: 2
+    filename: pizza-box.glb
+  - asset_id: stylized_mobile:kenney:food/pizza-cutter.glb
+    grade: 2
+    filename: pizza-cutter.glb
+  - asset_id: stylized_mobile:kenney:food/pizza.glb
+    grade: 2
+    filename: pizza.glb
+  - asset_id: stylized_mobile:kenney:food/plate-broken.glb
+    grade: 2
+    filename: plate-broken.glb
+  - asset_id: stylized_mobile:kenney:food/plate-deep.glb
+    grade: 2
+    filename: plate-deep.glb
+  - asset_id: stylized_mobile:kenney:food/plate-dinner.glb
+    grade: 2
+    filename: plate-dinner.glb
+  - asset_id: stylized_mobile:kenney:food/plate-rectangle.glb
+    grade: 2
+    filename: plate-rectangle.glb
+  - asset_id: stylized_mobile:kenney:food/plate-sauerkraut.glb
+    grade: 2
+    filename: plate-sauerkraut.glb
+  - asset_id: stylized_mobile:kenney:food/plate.glb
+    grade: 2
+    filename: plate.glb
+  - asset_id: stylized_mobile:kenney:food/popsicle-chocolate.glb
+    grade: 2
+    filename: popsicle-chocolate.glb
+  - asset_id: stylized_mobile:kenney:food/popsicle-stick.glb
+    grade: 2
+    filename: popsicle-stick.glb
+  - asset_id: stylized_mobile:kenney:food/popsicle.glb
+    grade: 2
+    filename: popsicle.glb
+  - asset_id: stylized_mobile:kenney:food/pot-lid.glb
+    grade: 2
+    filename: pot-lid.glb
+  - asset_id: stylized_mobile:kenney:food/pot-stew-lid.glb
+    grade: 2
+    filename: pot-stew-lid.glb
+  - asset_id: stylized_mobile:kenney:food/pot-stew.glb
+    grade: 2
+    filename: pot-stew.glb
+  - asset_id: stylized_mobile:kenney:food/pot.glb
+    grade: 2
+    filename: pot.glb
+  - asset_id: stylized_mobile:kenney:food/pudding.glb
+    grade: 2
+    filename: pudding.glb
+  - asset_id: stylized_mobile:kenney:food/pumpkin-basic.glb
+    grade: 2
+    filename: pumpkin-basic.glb
+  - asset_id: stylized_mobile:kenney:food/pumpkin.glb
+    grade: 2
+    filename: pumpkin.glb
+  - asset_id: stylized_mobile:kenney:food/radish.glb
+    grade: 2
+    filename: radish.glb
+  - asset_id: stylized_mobile:kenney:food/rice-ball.glb
+    grade: 2
+    filename: rice-ball.glb
+  - asset_id: stylized_mobile:kenney:food/rollingPin.glb
+    grade: 2
+    filename: rollingPin.glb
+  - asset_id: stylized_mobile:kenney:food/salad.glb
+    grade: 2
+    filename: salad.glb
+  - asset_id: stylized_mobile:kenney:food/sandwich.glb
+    grade: 2
+    filename: sandwich.glb
+  - asset_id: stylized_mobile:kenney:food/sausage-half.glb
+    grade: 2
+    filename: sausage-half.glb
+  - asset_id: stylized_mobile:kenney:food/sausage.glb
+    grade: 2
+    filename: sausage.glb
+  - asset_id: stylized_mobile:kenney:food/shaker-pepper.glb
+    grade: 2
+    filename: shaker-pepper.glb
+  - asset_id: stylized_mobile:kenney:food/shaker-salt.glb
+    grade: 2
+    filename: shaker-salt.glb
+  - asset_id: stylized_mobile:kenney:food/skewer-vegetables.glb
+    grade: 2
+    filename: skewer-vegetables.glb
+  - asset_id: stylized_mobile:kenney:food/skewer.glb
+    grade: 2
+    filename: skewer.glb
+  - asset_id: stylized_mobile:kenney:food/soda-bottle.glb
+    grade: 2
+    filename: soda-bottle.glb
+  - asset_id: stylized_mobile:kenney:food/soda-can-crushed.glb
+    grade: 2
+    filename: soda-can-crushed.glb
+  - asset_id: stylized_mobile:kenney:food/soda-can.glb
+    grade: 2
+    filename: soda-can.glb
+  - asset_id: stylized_mobile:kenney:food/soda-glass.glb
+    grade: 2
+    filename: soda-glass.glb
+  - asset_id: stylized_mobile:kenney:food/soda.glb
+    grade: 2
+    filename: soda.glb
+  - asset_id: stylized_mobile:kenney:food/soy.glb
+    grade: 2
+    filename: soy.glb
+  - asset_id: stylized_mobile:kenney:food/steamer.glb
+    grade: 2
+    filename: steamer.glb
+  - asset_id: stylized_mobile:kenney:food/strawberry.glb
+    grade: 2
+    filename: strawberry.glb
+  - asset_id: stylized_mobile:kenney:food/styrofoam-dinner.glb
+    grade: 2
+    filename: styrofoam-dinner.glb
+  - asset_id: stylized_mobile:kenney:food/styrofoam.glb
+    grade: 2
+    filename: styrofoam.glb
+  - asset_id: stylized_mobile:kenney:food/sub.glb
+    grade: 2
+    filename: sub.glb
+  - asset_id: stylized_mobile:kenney:food/sundae.glb
+    grade: 2
+    filename: sundae.glb
+  - asset_id: stylized_mobile:kenney:food/sushi-egg.glb
+    grade: 2
+    filename: sushi-egg.glb
+  - asset_id: stylized_mobile:kenney:food/sushi-salmon.glb
+    grade: 2
+    filename: sushi-salmon.glb
+  - asset_id: stylized_mobile:kenney:food/taco.glb
+    grade: 2
+    filename: taco.glb
+  - asset_id: stylized_mobile:kenney:food/tajine-lid.glb
+    grade: 2
+    filename: tajine-lid.glb
+  - asset_id: stylized_mobile:kenney:food/tajine.glb
+    grade: 2
+    filename: tajine.glb
+  - asset_id: stylized_mobile:kenney:food/tomato-slice.glb
+    grade: 2
+    filename: tomato-slice.glb
+  - asset_id: stylized_mobile:kenney:food/tomato.glb
+    grade: 2
+    filename: tomato.glb
+  - asset_id: stylized_mobile:kenney:food/turkey.glb
+    grade: 2
+    filename: turkey.glb
+  - asset_id: stylized_mobile:kenney:food/utensil-fork.glb
+    grade: 2
+    filename: utensil-fork.glb
+  - asset_id: stylized_mobile:kenney:food/utensil-knife.glb
+    grade: 2
+    filename: utensil-knife.glb
+  - asset_id: stylized_mobile:kenney:food/utensil-spoon.glb
+    grade: 2
+    filename: utensil-spoon.glb
+  - asset_id: stylized_mobile:kenney:food/waffle.glb
+    grade: 2
+    filename: waffle.glb
+  - asset_id: stylized_mobile:kenney:food/watermelon.glb
+    grade: 2
+    filename: watermelon.glb
+  - asset_id: stylized_mobile:kenney:food/whipped-cream.glb
+    grade: 2
+    filename: whipped-cream.glb
+  - asset_id: stylized_mobile:kenney:food/whisk.glb
+    grade: 2
+    filename: whisk.glb
+  - asset_id: stylized_mobile:kenney:food/whole-ham.glb
+    grade: 2
+    filename: whole-ham.glb
+  - asset_id: stylized_mobile:kenney:food/wholer-ham.glb
+    grade: 2
+    filename: wholer-ham.glb
+  - asset_id: stylized_mobile:kenney:food/wine-red.glb
+    grade: 2
+    filename: wine-red.glb
+  - asset_id: stylized_mobile:kenney:food/wine-white.glb
+    grade: 2
+    filename: wine-white.glb
+  n_relevant: 200
+  note: 过宽查询。
+- id: img-001
+  query: '[image:weapon-sword.glb]'
+  lang: zh
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/weapon-sword.glb
+    grade: 2
+    filename: weapon-sword.glb
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_mini-dungeon_weapon-sword.glb.png
+  image_asset_id: stylized_mobile:kenney:mini-dungeon/weapon-sword.glb
+- id: img-002
+  query: '[image:apple.glb]'
+  lang: zh
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:food/apple.glb
+    grade: 2
+    filename: apple.glb
+  - asset_id: stylized_mobile:kenney:food/pineapple.glb
+    grade: 2
+    filename: pineapple.glb
+  n_relevant: 2
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_food_apple.glb.png
+  image_asset_id: stylized_mobile:kenney:food/apple.glb
+- id: img-003
+  query: '[image:character-orc.glb]'
+  lang: en
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/character-orc.glb
+    grade: 2
+    filename: character-orc.glb
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_mini-dungeon_character-orc.glb.png
+  image_asset_id: stylized_mobile:kenney:mini-dungeon/character-orc.glb
+- id: img-004
+  query: '[image:Camera_01]'
+  lang: en
+  project_id: realistic
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf
+    grade: 2
+    filename: Camera_01_1k.gltf
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/realistic_polyhaven_polyhaven-model_Camera_01_Camera_01_1k.gltf.png
+  image_asset_id: realistic:polyhaven:polyhaven-model:Camera_01/Camera_01_1k.gltf
+- id: img-005
+  query: '[image:button_rectangle_flat.png]'
+  lang: zh
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png
+    grade: 2
+    filename: button_rectangle_flat.png
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_ui_UI Pack_button_rectangle_flat.png.png
+  image_asset_id: stylized_mobile:kenney:ui/UI Pack/button_rectangle_flat.png
+- id: img-006
+  query: '[image:shield-round.glb]'
+  lang: zh
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:mini-dungeon/shield-round.glb
+    grade: 2
+    filename: shield-round.glb
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_mini-dungeon_shield-round.glb.png
+  image_asset_id: stylized_mobile:kenney:mini-dungeon/shield-round.glb
+- id: img-007
+  query: '[image:trophy.png]'
+  lang: en
+  project_id: stylized_mobile
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: stylized_mobile:kenney:icons/Game Icons/trophy.png
+    grade: 2
+    filename: trophy.png
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/stylized_mobile_kenney_icons_Game Icons_trophy.png.png
+  image_asset_id: stylized_mobile:kenney:icons/Game Icons/trophy.png
+- id: img-008
+  query: '[image:service_pistol]'
+  lang: en
+  project_id: realistic
+  modality: image
+  difficulty: medium
+  status: auto_drafted_needs_review
+  relevant:
+  - asset_id: realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf
+    grade: 2
+    filename: service_pistol_1k.gltf
+  n_relevant: 1
+  note: ''
+  image_path: /workspace/artgate/data/previews/realistic_polyhaven_polyhaven-model_service_pistol_service_pistol_1k.gltf.png
+  image_asset_id: realistic:polyhaven:polyhaven-model:service_pistol/service_pistol_1k.gltf
+skipped: []

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArtGate · 美术资产预检与检索工作台</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <h1>ArtGate</h1>
+      <small>预检 · 检索 · 确认</small>
+    </div>
+    <button class="nav-btn active" data-page="search">检索</button>
+    <button class="nav-btn" data-page="ingest">入库预检</button>
+    <button class="nav-btn" data-page="queue">人工确认队列</button>
+    <button class="nav-btn" data-page="templates">规范模板</button>
+    <button class="nav-btn" data-page="cost">费用与时延</button>
+    <button class="nav-btn" data-page="eval">评测结果</button>
+    <div class="foot">
+      规则层用官方工具算死数值；VLM 只做视觉建议，默认警告；通过后才入可检索库。<br/>
+      这是个人项目，评测资产来自 Kenney / Poly Haven / Khronos 公开许可，不是任何游戏项目组的生产数据。
+    </div>
+  </aside>
+  <main class="main">
+    <!-- SEARCH -->
+    <section id="page-search">
+      <h2>语义检索</h2>
+      <p class="sub">先按项目 / 类型 / 格式 / 面数过滤，再在子集里做多模态语义检索。支持中文自然语言和以图搜图。默认项目隔离。</p>
+      <div class="row">
+        <label>中文 / 英文查询
+          <input type="text" class="q" id="q" placeholder="例如：一把卡通长剑、圆形盾牌、生日蛋糕" />
+        </label>
+        <label>项目
+          <select id="s-project">
+            <option value="stylized_mobile">风格化手游低模</option>
+            <option value="realistic">写实角色与场景</option>
+          </select>
+        </label>
+        <label>类型
+          <select id="s-type">
+            <option value="">全部</option>
+            <option>character</option><option>weapon</option><option>environment</option>
+            <option>prop</option><option>ui</option><option>texture</option><option>vfx</option>
+          </select>
+        </label>
+        <label>格式
+          <select id="s-format">
+            <option value="">全部</option>
+            <option>glb</option><option>png</option><option>jpg</option><option>gltf</option>
+          </select>
+        </label>
+        <label>面数下限 <input type="number" id="s-tmin" placeholder="可选" /></label>
+        <label>面数上限 <input type="number" id="s-tmax" placeholder="可选" /></label>
+        <label>跨项目（默认关）
+          <select id="s-cross"><option value="0">否（项目隔离）</option><option value="1">是（仅评测域偏移）</option></select>
+        </label>
+        <button class="btn" id="btn-search">检索</button>
+        <label>以图搜图
+          <input type="file" id="q-img" accept="image/*" />
+        </label>
+      </div>
+      <div id="s-warn"></div>
+      <div id="s-meta" class="sub"></div>
+      <div class="grid" id="s-grid"></div>
+      <div id="s-detail"></div>
+    </section>
+
+    <!-- INGEST -->
+    <section id="page-ingest" class="hidden">
+      <h2>入库预检</h2>
+      <p class="sub">模拟外包提交。规则层（命名、格式、体积、2 的幂次、面数、glTF 规范）全部用工具算；VLM 可选。结果默认进人工队列，不会自动删除或自动驳回警告项。</p>
+      <div class="row">
+        <label>项目
+          <select id="i-project">
+            <option value="stylized_mobile">风格化手游低模（模板 M）</option>
+            <option value="realistic">写实角色与场景（模板 R）</option>
+          </select>
+        </label>
+        <label>资产类型
+          <select id="i-type">
+            <option>prop</option><option>character</option><option>weapon</option>
+            <option>environment</option><option>ui</option><option>texture</option><option>vfx</option>
+          </select>
+        </label>
+        <label>文件 <input type="file" id="i-file" /></label>
+        <label>VLM
+          <select id="i-vlm">
+            <option value="">跟随配置（默认 disabled）</option>
+            <option value="disabled">关闭（仅规则）</option>
+            <option value="mock">mock 演示</option>
+            <option value="openai_compat">OpenAI 兼容接口</option>
+          </select>
+        </label>
+        <button class="btn" id="btn-ingest">提交预检</button>
+      </div>
+      <div id="i-out"></div>
+    </section>
+
+    <!-- QUEUE -->
+    <section id="page-queue" class="hidden">
+      <h2>人工确认队列</h2>
+      <p class="sub">TA 看到规则报告 + VLM 建议 + 预览，作出通过 / 退回 / 申诉通过。原因必填。通过后才进入可检索库。</p>
+      <div class="row">
+        <label>项目
+          <select id="q-project">
+            <option value="">全部</option>
+            <option value="stylized_mobile">风格化手游低模</option>
+            <option value="realistic">写实</option>
+          </select>
+        </label>
+        <button class="btn ghost" id="btn-refresh-q">刷新</button>
+      </div>
+      <div class="queue-list" id="q-list"></div>
+    </section>
+
+    <!-- TEMPLATES -->
+    <section id="page-templates" class="hidden">
+      <h2>规范模板：引擎一套，规范可切换</h2>
+      <p class="sub">两套模板的命名、面数、贴图上限、必选通道、允许格式都不同。换项目只换 YAML，不改代码。</p>
+      <div class="tmpl" id="tmpl-box"></div>
+    </section>
+
+    <!-- COST -->
+    <section id="page-cost" class="hidden">
+      <h2>费用与时延看板</h2>
+      <p class="sub">嵌入在本地计算，API 费用为 0，按文件哈希缓存。VLM 按需调用；若未配置 key 则次数为 0。假设单价不会当作实测账单。</p>
+      <div id="cost-out"></div>
+    </section>
+
+    <!-- EVAL -->
+    <section id="page-eval" class="hidden">
+      <h2>离线评测结果</h2>
+      <p class="sub">数字全部来自 <span class="mono">eval/measure.py</span> 实测。金标查询是自动起草的，需要作者审过才能当作面试口径。</p>
+      <pre class="block" id="eval-out">加载中…</pre>
+    </section>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

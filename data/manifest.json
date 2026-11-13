@@ -1,0 +1,950 @@
+{
+  "generated_by": "scripts/download_data.py",
+  "kenney": {
+    "ok": true,
+    "path": "/workspace/artgate/data/raw/kenney",
+    "commit": "3694c6879e487c108f55677be7dd2ca75b07cc3b",
+    "skipped": true
+  },
+  "polyhaven": [
+    {
+      "id": "Camera_01",
+      "kind": "model",
+      "name": "Camera 01",
+      "license": "CC0",
+      "authors": {
+        "Rajil Jose Macatangay": "All"
+      },
+      "categories": [
+        "props",
+        "electronics"
+      ],
+      "tags": [
+        "vintage",
+        "camera",
+        "antique",
+        "ornate",
+        "photography",
+        "photography",
+        "retro",
+        "lens",
+        "classic",
+        "classic",
+        "analog"
+      ],
+      "polycount_official": 26987,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 12
+    },
+    {
+      "id": "service_pistol",
+      "kind": "model",
+      "name": "Service Pistol",
+      "license": "CC0",
+      "authors": {
+        "Mateusz Sadek": "All"
+      },
+      "categories": [
+        "collection: project_lighthouse",
+        "props",
+        "weapons",
+        "firearms"
+      ],
+      "tags": [
+        "vintage",
+        "semi-automatic",
+        "metal",
+        "cold war",
+        "bullet",
+        "gun",
+        "handgun"
+      ],
+      "polycount_official": 27548,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "bolt_action_rifle_7_62",
+      "kind": "model",
+      "name": "Bolt Action Rifle 7.62",
+      "license": "CC0",
+      "authors": {
+        "Mateusz Sadek": "All"
+      },
+      "categories": [
+        "collection: project_lighthouse",
+        "weapons",
+        "firearms"
+      ],
+      "tags": [
+        "vintage",
+        "worn",
+        "old",
+        "weathered",
+        "aged",
+        "gun",
+        "scope",
+        "bullet"
+      ],
+      "polycount_official": 19985,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 9
+    },
+    {
+      "id": "Television_01",
+      "kind": "model",
+      "name": "Television 01",
+      "license": "CC0",
+      "authors": {
+        "Gabriel Radić": "All"
+      },
+      "categories": [
+        "props",
+        "electronics",
+        "collection: the_shed"
+      ],
+      "tags": [
+        "vintage",
+        "prop",
+        "furniture",
+        "metal",
+        "wood",
+        "tv",
+        "television",
+        "video",
+        "audio"
+      ],
+      "polycount_official": 1918,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "Lantern_01",
+      "kind": "model",
+      "name": "Lantern 01",
+      "license": "CC0",
+      "authors": {
+        "Rajil Jose Macatangay": "All"
+      },
+      "categories": [
+        "props",
+        "lighting"
+      ],
+      "tags": [
+        "prop",
+        "metal",
+        "glass",
+        "lantern",
+        "antique",
+        "vintage",
+        "hurricane",
+        "lamp",
+        "bronze",
+        "oldfashioned",
+        "brass",
+        "copper"
+      ],
+      "polycount_official": 33902,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "wine_bottles_01",
+      "kind": "model",
+      "name": "Wine Bottles 01",
+      "license": "CC0",
+      "authors": {
+        "Rico Cilliers": "modeling",
+        "Jurita Burger": "graphic design"
+      },
+      "categories": [
+        "props",
+        "containers",
+        "dishes"
+      ],
+      "tags": [
+        "wine",
+        "drink",
+        "bottle",
+        "champagne",
+        "grape",
+        "farmhouse",
+        "vineyard"
+      ],
+      "polycount_official": 28848,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 15
+    },
+    {
+      "id": "horse_statue_01",
+      "kind": "model",
+      "name": "Horse Statue 01",
+      "license": "CC0",
+      "authors": {
+        "Rico Cilliers": "All"
+      },
+      "categories": [
+        "props",
+        "decorative"
+      ],
+      "tags": [
+        "decorative",
+        "horse",
+        "statue",
+        "figurine",
+        "porcelain",
+        "animal",
+        "sculpture",
+        "white",
+        "fancy"
+      ],
+      "polycount_official": 22388,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "sofa_02",
+      "kind": "model",
+      "name": "Sofa 02",
+      "license": "CC0",
+      "authors": {
+        "Kirill Sannikov": "All"
+      },
+      "categories": [
+        "furniture",
+        "seating"
+      ],
+      "tags": [
+        "wood",
+        "furniture",
+        "chair",
+        "prop",
+        "couch",
+        "leather",
+        "fabric"
+      ],
+      "polycount_official": 2728,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "wooden_table_02",
+      "kind": "model",
+      "name": "Wooden Table 02",
+      "license": "CC0",
+      "authors": {
+        "Serhii Khromov": "All"
+      },
+      "categories": [
+        "furniture",
+        "table"
+      ],
+      "tags": [
+        "wooden",
+        "worn",
+        "village",
+        "rural",
+        "natural",
+        "simple"
+      ],
+      "polycount_official": 196,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "Barrel_01",
+      "kind": "model",
+      "name": "Barrel_01",
+      "license": "CC0",
+      "authors": {
+        "Jorge Camacho": "All"
+      },
+      "categories": [
+        "industrial",
+        "containers"
+      ],
+      "tags": [
+        "barrel",
+        "oil",
+        "explosive",
+        "radioactive",
+        "metal",
+        "red barrel",
+        "oil barrel",
+        "drums",
+        "fuel barrel",
+        "explosive barrel",
+        "industrial"
+      ],
+      "polycount_official": 2682,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "decorative_book_set_01",
+      "kind": "model",
+      "name": "Decorative Book Set 01",
+      "license": "CC0",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "categories": [
+        "props",
+        "decorative",
+        "books"
+      ],
+      "tags": [
+        "bookshelf",
+        "books",
+        "reading",
+        "library",
+        "collection"
+      ],
+      "polycount_official": 112560,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 1
+    },
+    {
+      "id": "classic_laptop",
+      "kind": "model",
+      "name": "Classic Laptop",
+      "license": "CC0",
+      "authors": {
+        "Arrangemonk": "All"
+      },
+      "categories": [
+        "collection: project_lighthouse",
+        "office",
+        "electronics"
+      ],
+      "tags": [
+        "old",
+        "vintage",
+        "beige",
+        "notebook",
+        "lcd",
+        "trackball"
+      ],
+      "polycount_official": 14450,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "wall_clock",
+      "kind": "model",
+      "name": "Wall Clock",
+      "license": "CC0",
+      "authors": {
+        "PierreB3D": "All"
+      },
+      "categories": [
+        "collection: project_lighthouse",
+        "decorative",
+        "appliances"
+      ],
+      "tags": [
+        "time",
+        "timepiece",
+        "watch",
+        "watchface",
+        "wall clock",
+        "analog",
+        "modern",
+        "office decor",
+        "home interior",
+        "admin",
+        "office",
+        "90s"
+      ],
+      "polycount_official": 3658,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 7
+    },
+    {
+      "id": "ceramic_vase_01",
+      "kind": "model",
+      "name": "Ceramic Vase 01",
+      "license": "CC0",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "categories": [
+        "vases",
+        "containers",
+        "decorative"
+      ],
+      "tags": [
+        "pot",
+        "clean",
+        "tall",
+        "modern",
+        "fancy",
+        "decor"
+      ],
+      "polycount_official": 2548,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "metal_office_desk",
+      "kind": "model",
+      "name": "Metal Office Desk",
+      "license": "CC0",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "categories": [
+        "collection: project_lighthouse",
+        "furniture",
+        "table",
+        "office"
+      ],
+      "tags": [
+        "old",
+        "vintage",
+        "metal",
+        "dirty",
+        "scratched",
+        "industrial",
+        "rectangular"
+      ],
+      "polycount_official": 6898,
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 6
+    },
+    {
+      "id": "brick_wall_001",
+      "kind": "texture",
+      "name": "Brick Wall 001",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "categories": [
+        "brick",
+        "man made",
+        "outdoor",
+        "indoor",
+        "clean",
+        "wall"
+      ],
+      "tags": [
+        "red",
+        "rough",
+        "industrial",
+        "plain",
+        "baked"
+      ],
+      "channels": {
+        "albedo": "brick_wall_001_albedo_1k.jpg",
+        "normal": "brick_wall_001_normal_1k.jpg",
+        "roughness": "brick_wall_001_roughness_1k.jpg",
+        "ao": "brick_wall_001_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "wood_floor_deck",
+      "kind": "texture",
+      "name": "Wood Floor Deck",
+      "license": "CC0",
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "categories": [
+        "man made",
+        "wood",
+        "floor",
+        "outdoor"
+      ],
+      "tags": [
+        "brown",
+        "worn",
+        "chipped",
+        "stained",
+        "wood",
+        "scratched",
+        "planks",
+        "floor",
+        "deck",
+        "varnished",
+        "wooden"
+      ],
+      "channels": {
+        "albedo": "wood_floor_deck_albedo_1k.jpg",
+        "normal": "wood_floor_deck_normal_1k.jpg",
+        "roughness": "wood_floor_deck_roughness_1k.jpg",
+        "ao": "wood_floor_deck_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "rusty_metal_03",
+      "kind": "texture",
+      "name": "Rusty Metal 03",
+      "license": "CC0",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "categories": [
+        "man made",
+        "metal"
+      ],
+      "tags": [
+        "rough",
+        "weathered",
+        "worn",
+        "old",
+        "metal",
+        "rusted",
+        "rusty",
+        "rust",
+        "metal sheet",
+        "corroded",
+        "corroded metal sheet",
+        "oxidized",
+        "corroded surface",
+        "oxidized metal"
+      ],
+      "channels": {
+        "albedo": "rusty_metal_03_albedo_1k.jpg",
+        "normal": "rusty_metal_03_normal_1k.jpg",
+        "roughness": "rusty_metal_03_roughness_1k.jpg",
+        "ao": "rusty_metal_03_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "concrete_wall_001",
+      "kind": "texture",
+      "name": "Concrete Wall 001",
+      "license": "CC0",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "categories": [
+        "outdoor",
+        "man made",
+        "wall",
+        "plaster",
+        "concrete",
+        "plaster-concrete",
+        "collection: the_shed"
+      ],
+      "tags": [
+        "cracked",
+        "plaster",
+        "white",
+        "trimsheet",
+        "painted",
+        "chipped",
+        "clean",
+        "damaged"
+      ],
+      "channels": {
+        "albedo": "concrete_wall_001_albedo_1k.jpg",
+        "normal": "concrete_wall_001_normal_1k.jpg",
+        "roughness": "concrete_wall_001_roughness_1k.jpg",
+        "ao": "concrete_wall_001_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "leather_red_02",
+      "kind": "texture",
+      "name": "Leather Red 02",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "fabric",
+        "leather"
+      ],
+      "tags": [
+        "leather",
+        "even",
+        "smooth",
+        "new",
+        "creased",
+        "wrinkled",
+        "semi-gloss",
+        "upholstery",
+        "textile ",
+        "animal-hide"
+      ],
+      "channels": {
+        "normal": "leather_red_02_normal_1k.jpg",
+        "roughness": "leather_red_02_roughness_1k.jpg",
+        "ao": "leather_red_02_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 4
+    },
+    {
+      "id": "rock_wall_02",
+      "kind": "texture",
+      "name": "Rock Wall 02",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "rock",
+        "natural",
+        "terrain",
+        "outdoor"
+      ],
+      "tags": [
+        "rough",
+        "rock face",
+        "bare",
+        "rock",
+        "uneven",
+        "rough  ",
+        "discolored",
+        "coastal landscape",
+        "weathered",
+        "eroded",
+        "weather-beaten",
+        "mossy patches"
+      ],
+      "channels": {
+        "albedo": "rock_wall_02_albedo_1k.jpg",
+        "normal": "rock_wall_02_normal_1k.jpg",
+        "roughness": "rock_wall_02_roughness_1k.jpg",
+        "ao": "rock_wall_02_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "sand_01",
+      "kind": "texture",
+      "name": "Sand 01",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "terrain",
+        "sand",
+        "outdoor",
+        "natural"
+      ],
+      "tags": [
+        "sand",
+        "uneven",
+        "trampled",
+        "clay",
+        "plaster",
+        "dry"
+      ],
+      "channels": {
+        "albedo": "sand_01_albedo_1k.jpg",
+        "normal": "sand_01_normal_1k.jpg",
+        "roughness": "sand_01_roughness_1k.jpg",
+        "ao": "sand_01_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "roof_07",
+      "kind": "texture",
+      "name": "Roof 07",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "roofing",
+        "man made",
+        "outdoor",
+        "dirty"
+      ],
+      "tags": [
+        "ceramic",
+        "tiles",
+        "old",
+        "worn",
+        "damaged",
+        "discolored",
+        "roofing material",
+        "roof",
+        "roofing",
+        "tile roofing",
+        "clay tiles",
+        "weathered",
+        "mossy",
+        "rustic",
+        "overlapping tiles"
+      ],
+      "channels": {
+        "albedo": "roof_07_albedo_1k.jpg",
+        "normal": "roof_07_normal_1k.jpg",
+        "roughness": "roof_07_roughness_1k.jpg",
+        "ao": "roof_07_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "fabric_pattern_05",
+      "kind": "texture",
+      "name": "Fabric Pattern 05",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "fabric",
+        "cotton"
+      ],
+      "tags": [
+        "plain",
+        "cloth",
+        "towel",
+        "checker",
+        "checkered",
+        "plaid",
+        "grid pattern",
+        "windowpane plaid",
+        "upholstery",
+        "textile ",
+        "woven",
+        "drape"
+      ],
+      "channels": {
+        "normal": "fabric_pattern_05_normal_1k.jpg",
+        "roughness": "fabric_pattern_05_roughness_1k.jpg",
+        "ao": "fabric_pattern_05_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 4
+    },
+    {
+      "id": "cobblestone_floor_01",
+      "kind": "texture",
+      "name": "Cobblestone Floor 01",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "outdoor",
+        "floor",
+        "man made",
+        "dirty",
+        "cobblestone"
+      ],
+      "tags": [
+        "cobblestone",
+        "mud",
+        "path",
+        "pavement"
+      ],
+      "channels": {
+        "albedo": "cobblestone_floor_01_albedo_1k.jpg",
+        "normal": "cobblestone_floor_01_normal_1k.jpg",
+        "roughness": "cobblestone_floor_01_roughness_1k.jpg",
+        "ao": "cobblestone_floor_01_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "bark_brown_02",
+      "kind": "texture",
+      "name": "Bark Brown 02",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "wood",
+        "outdoor",
+        "natural",
+        "bark"
+      ],
+      "tags": [
+        "bark",
+        "tree",
+        "forest",
+        "knots",
+        "wooden knots",
+        "tree trunk"
+      ],
+      "channels": {
+        "albedo": "bark_brown_02_albedo_1k.jpg",
+        "normal": "bark_brown_02_normal_1k.jpg",
+        "roughness": "bark_brown_02_roughness_1k.jpg",
+        "ao": "bark_brown_02_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "aerial_asphalt_01",
+      "kind": "texture",
+      "name": "Aerial Asphalt 01",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "asphalt",
+        "outdoor",
+        "floor",
+        "road",
+        "man made",
+        "aerial"
+      ],
+      "tags": [
+        "road",
+        "flat",
+        "cracked"
+      ],
+      "channels": {
+        "albedo": "aerial_asphalt_01_albedo_1k.jpg",
+        "normal": "aerial_asphalt_01_normal_1k.jpg",
+        "roughness": "aerial_asphalt_01_roughness_1k.jpg",
+        "ao": "aerial_asphalt_01_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "brown_mud_leaves_01",
+      "kind": "texture",
+      "name": "Brown Mud Leaves 01",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "terrain",
+        "natural",
+        "outdoor"
+      ],
+      "tags": [
+        "grass",
+        "mud",
+        "moss",
+        "stones",
+        "orange",
+        "forest"
+      ],
+      "channels": {
+        "albedo": "brown_mud_leaves_01_albedo_1k.jpg",
+        "normal": "brown_mud_leaves_01_normal_1k.jpg",
+        "roughness": "brown_mud_leaves_01_roughness_1k.jpg",
+        "ao": "brown_mud_leaves_01_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "coast_sand_rocks_02",
+      "kind": "texture",
+      "name": "Coast Sand Rocks 02",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "outdoor",
+        "natural",
+        "terrain",
+        "aerial",
+        "rock",
+        "collection: smugglers_cove"
+      ],
+      "tags": [
+        "grass",
+        "rock face",
+        "rock",
+        "moss",
+        "rough",
+        "uneven",
+        "weathered",
+        "stones",
+        "cliff",
+        "ground",
+        "seaside",
+        "coastal"
+      ],
+      "channels": {
+        "albedo": "coast_sand_rocks_02_albedo_1k.jpg",
+        "normal": "coast_sand_rocks_02_normal_1k.jpg",
+        "roughness": "coast_sand_rocks_02_roughness_1k.jpg",
+        "ao": "coast_sand_rocks_02_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    },
+    {
+      "id": "plywood",
+      "kind": "texture",
+      "name": "Plywood",
+      "license": "CC0",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "categories": [
+        "wood",
+        "clean",
+        "man made",
+        "natural",
+        "raw wood"
+      ],
+      "tags": [
+        "clean",
+        "even",
+        "smooth",
+        "flat",
+        "continuous",
+        "consistent"
+      ],
+      "channels": {
+        "albedo": "plywood_albedo_1k.jpg",
+        "normal": "plywood_normal_1k.jpg",
+        "roughness": "plywood_roughness_1k.jpg",
+        "ao": "plywood_ao_1k.jpg"
+      },
+      "license_url": "https://polyhaven.com/license",
+      "n_files": 5
+    }
+  ],
+  "khronos": {
+    "ok": true,
+    "path": "/workspace/artgate/data/raw/khronos-gltf-sample-assets",
+    "commit": "8f492390ddc7a2ae221a1369ef560589cf8c70fb",
+    "date": "2026-10-23T15:19:32Z",
+    "repo": "https://github.com/KhronosGroup/glTF-Sample-Assets.git",
+    "models": [
+      "Box",
+      "BoxTextured",
+      "BoxVertexColors",
+      "Triangle",
+      "Avocado",
+      "DamagedHelmet",
+      "BoomBox",
+      "Duck",
+      "Suzanne",
+      "Lantern"
+    ]
+  },
+  "counts": {
+    "kenney_glb": 539,
+    "kenney_png": 5458,
+    "polyhaven_models": 15,
+    "khronos": 22
+  }
+}

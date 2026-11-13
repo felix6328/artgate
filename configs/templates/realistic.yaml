@@ -1,0 +1,91 @@
+# 模板 R：写实角色 / 场景。用 Poly Haven CC0 写实资产模拟。
+# 与模板 M 共用同一套引擎，只换本配置：命名前缀、面数、贴图上限、必选通道、允许格式都不同。
+# 面数预算在下载 Poly Haven 1K 子集并实测后，如需上调只会按实测分布修改本文件。
+project_id: realistic
+name: 写实角色与场景
+name_en: Realistic Characters and Environments
+style: realistic
+description: 面向写实 PBR 资产。贴图可到 4K，要求 Albedo / Normal / Roughness 通道（在提交的是贴图套装时）。
+
+asset_types:
+  - character
+  - weapon
+  - environment
+  - prop
+  - ui
+  - texture
+  - vfx
+
+naming:
+  pattern: '^r_(chr|wpn|env|prp|ui|tex|vfx)_[a-z0-9]+_lod[0-2]_v[0-9]{3}\.(glb|gltf|png|jpg|jpeg|ktx2)$'
+  type_prefix:
+    character: chr
+    weapon: wpn
+    environment: env
+    prop: prp
+    ui: ui
+    texture: tex
+    vfx: vfx
+  example: r_prp_camera_lod0_v001.glb
+  description: 项目前缀 r（与 m_ 区分），其余结构相同，允许 ktx2。
+
+allowed_formats:
+  - glb
+  - gltf
+  - png
+  - jpg
+  - jpeg
+  - ktx2    # 本评测集未覆盖真实 KTX2 样本，配置位保留，见 README 限制
+max_file_size_mb: 50
+
+poly_budget:
+  # 写实资产面数显著高于 Kenney 低模。Camera_01 官方 polycount=26987。
+  # 先给较宽预算，build 时若实测超过会记录到模板修订说明，而不是悄悄放行。
+  default: {lod0: 80000, lod1: 40000, lod2: 15000}
+  character: {lod0: 100000, lod1: 50000, lod2: 20000}
+  weapon: {lod0: 60000, lod1: 30000, lod2: 10000}
+  environment: {lod0: 150000, lod1: 80000, lod2: 30000}
+  prop: {lod0: 80000, lod1: 40000, lod2: 15000}
+
+texture:
+  max_side: 4096
+  power_of_two:
+    texture: required
+    character: not_required
+    weapon: not_required
+    environment: not_required
+    prop: not_required
+    ui: not_required
+    vfx: not_required
+    "3d_model_texture": required
+  # 仅当提交的是贴图套装（asset_type=texture）时检查必选通道。
+  # 3D 模型若已打包 PBR 贴图，规则层会在报告里列出实际通道，缺通道记 warn（本评测集 1K 子集可能不齐）。
+  required_channels: [albedo, normal, roughness]
+  required_channels_severity_for_models: warn
+  allowed_color_spaces: [sRGB, linear]
+
+checks:
+  naming: block
+  format: block
+  file_size: block
+  image_power_of_two: block
+  image_max_side: block
+  gltf_valid: block
+  poly_budget: block
+  texture_max_side_3d: block
+  texture_power_of_two_3d: block
+  required_channels: block          # 对 texture 套装
+  name_content_mismatch: warn
+  style_drift: warn
+
+style_reference:
+  description: Poly Haven 写实照片级参考板
+  images: []
+
+search_defaults:
+  isolate_project: true
+  filter_fields: [asset_type, format, triangle_min, triangle_max]
+
+visual_promote_to_block_max_false_block_rate: null
+# 本评测集未覆盖：ktx2 真实样本。
+uncovered: [ktx2_format_samples]

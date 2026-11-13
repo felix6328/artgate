@@ -1,0 +1,313 @@
+status: authored_with_injection
+note: 预检金标在注入错误时写定，不根据预检脚本输出回改。layer=visual 的期望只在 VLM 实际运行（含 mock）时评估；规则层 Precision/Recall
+  排除这些项。should_block=false 的样本用于误拦率。exclude_from_false_block 的样本不计入误拦率。
+items:
+- id: bad_name_final_final2
+  path: data/broken/bad_name/final_final2.glb
+  project_id: stylized_mobile
+  asset_type: weapon
+  canonical_name: final_final2.glb
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: fail
+    severity: block
+  - check_id: gltf_valid
+    status: pass
+  should_block: true
+  note: 故意使用 final_final2.glb 这种不合规命名。内容本身是合法 Kenney 剑。
+- id: npot_1000x800_texture
+  path: data/broken/npot/m_tex_wallpaint_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: texture
+  canonical_name: m_tex_wallpaint_lod0_v001.png
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: pass
+    severity: block
+  - check_id: image_power_of_two
+    status: fail
+    severity: block
+  - check_id: image_max_side
+    status: pass
+    severity: block
+  should_block: true
+  note: 1000×800 非 2 的幂次，且类型为 texture，模板 M 强制 POT。
+- id: npot_ui_not_required
+  path: data/broken/npot_ui/m_ui_bannerwide_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: ui
+  canonical_name: m_ui_bannerwide_lod0_v001.png
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: image_power_of_two
+    status: skip
+  - check_id: image_max_side
+    status: pass
+  should_block: false
+  note: 同一张 1000×800，类型为 UI，模板不强制 POT，不应因此阻断。验证产品策略而不是漏检。
+- id: overbudget_icosphere
+  path: data/broken/overbudget/m_prp_megaball_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_megaball_lod0_v001.glb
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: poly_budget
+    status: fail
+    severity: block
+  should_block: true
+  note: 用 trimesh icosphere(subdivisions=5) 生成约 20480 三角面，超过模板 M prop LOD0 预算 2000。面数以工具实测为准。
+  injected_face_count: 20480
+- id: invalid_gltf_missing_accessor
+  path: data/broken/invalid_gltf/m_prp_brokenmesh_lod0_v001.gltf
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_brokenmesh_lod0_v001.gltf
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: gltf_valid
+    status: fail
+    severity: block
+  should_block: true
+  note: 故意缺失 accessor 99。只有官方校验器的 error 才应 block；本条是真正的规范错误。
+- id: name_mismatch_shield_is_sword
+  path: data/broken/name_mismatch/m_wpn_shieldround_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: weapon
+  canonical_name: m_wpn_shieldround_lod0_v001.glb
+  expected_overall: warn
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: name_content_mismatch
+    status: fail
+    severity: warn
+    layer: visual
+  should_block: false
+  note: 文件名是盾、内容是剑。规则层无法判定，应由 VLM 给 warn。无 API 时视觉项 not_run，规则层应 overall=pass。
+  visual_only: true
+  mock_stem: name_mismatch_shield_is_sword
+- id: wrong_format_fbx
+  path: data/broken/wrong_format/m_prp_secretasset_lod0_v001.fbx
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_secretasset_lod0_v001.fbx
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: fail
+  - check_id: format
+    status: fail
+    severity: block
+  should_block: true
+  note: 模板 M 不允许 fbx。命名正则也不含该扩展名。
+- id: oversized_file
+  path: data/broken/oversized/m_tex_hugemap_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: texture
+  canonical_name: m_tex_hugemap_lod0_v001.png
+  expected_overall: block
+  expected:
+  - check_id: file_size
+    status: fail
+    severity: block
+  should_block: true
+  note: 体积超过模板 M 的 8MB。
+  loose_other_checks: true
+- id: over_max_side_4096
+  path: data/broken/overside/m_tex_toobig_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: texture
+  canonical_name: m_tex_toobig_lod0_v001.png
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: image_power_of_two
+    status: pass
+  - check_id: image_max_side
+    status: fail
+    severity: block
+  should_block: true
+  note: 4096×4096 是 2 的幂次，但超过模板 M 贴图上限 2048。用来区分两项检查。
+- id: npot_3d_texture
+  path: data/broken/npot_3d/m_prp_redquad_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_redquad_lod0_v001.glb
+  expected_overall: block
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: fail
+    severity: block
+  should_block: true
+  note: 网格面数很低，但贴图为 1000×800。应被 3D 贴图 POT 规则拦截，而不是面数规则。
+- id: compliant_sword
+  path: data/broken/compliant/m_wpn_sword_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: weapon
+  canonical_name: m_wpn_sword_lod0_v001.glb
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: file_size
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: pass
+  should_block: false
+  note: 合规对照样本，来自 Kenney weapon-sword.glb，已赋规范文件名。
+- id: compliant_shieldround
+  path: data/broken/compliant/m_wpn_shieldround_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: weapon
+  canonical_name: m_wpn_shieldround_lod0_v001.glb
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: file_size
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: pass
+  should_block: false
+  note: 合规对照样本，来自 Kenney shield-round.glb，已赋规范文件名。
+- id: compliant_human
+  path: data/broken/compliant/m_chr_human_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: character
+  canonical_name: m_chr_human_lod0_v001.glb
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: file_size
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: pass
+  should_block: false
+  note: 合规对照样本，来自 Kenney character-human.glb，已赋规范文件名。
+- id: compliant_apple
+  path: data/broken/compliant/m_prp_apple_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_apple_lod0_v001.glb
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: file_size
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: pass
+  should_block: false
+  note: 合规对照样本，来自 Kenney apple.glb，已赋规范文件名。
+- id: compliant_tree
+  path: data/broken/compliant/m_env_tree_lod0_v001.glb
+  project_id: stylized_mobile
+  asset_type: environment
+  canonical_name: m_env_tree_lod0_v001.glb
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: format
+    status: pass
+  - check_id: file_size
+    status: pass
+  - check_id: gltf_valid
+    status: pass
+  - check_id: poly_budget
+    status: pass
+  - check_id: texture_power_of_two_3d
+    status: pass
+  should_block: false
+  note: 合规对照样本，来自 Kenney tree.glb，已赋规范文件名。
+- id: compliant_colormap
+  path: data/broken/compliant/m_tex_colormapref_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: texture
+  canonical_name: m_tex_colormapref_lod0_v001.png
+  expected_overall: pass
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: image_power_of_two
+    status: pass
+  - check_id: image_max_side
+    status: pass
+  should_block: false
+  note: Kenney colormap 512×512，合规 POT 贴图对照。
+- id: style_drift_realistic_in_stylized
+  path: data/broken/style_drift/m_prp_camerafancy_lod0_v001.png
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: m_prp_camerafancy_lod0_v001.png
+  expected_overall: warn
+  expected:
+  - check_id: naming
+    status: pass
+  - check_id: style_drift
+    status: fail
+    severity: warn
+    layer: visual
+  should_block: false
+  note: 把 Poly Haven 写实缩略图用风格化模板的规范名提交。规则层不应 block；VLM mock 给风格漂移 warn。
+  visual_only: true
+  mock_stem: style_drift_realistic_in_stylized
+  source_thumb: /workspace/artgate/data/raw/polyhaven/models/horse_statue_01/thumb.png
+- id: khronos_valid_sample
+  path: data/broken/khronos_valid/glTF-Binary/Box.glb
+  project_id: stylized_mobile
+  asset_type: prop
+  canonical_name: Box.glb
+  expected_overall: block
+  expected:
+  - check_id: gltf_valid
+    status: pass
+  should_block: null
+  note: Khronos 样本 /workspace/artgate/data/raw/khronos-gltf-sample-assets/Models/Box/glTF-Binary/Box.glb，用于确认官方校验器在合规文件上通过。许可见
+    data/licenses.md。不计入误拦率。
+  loose_other_checks: true
+  exclude_from_false_block: true
+  license_note: Khronos per-model license
