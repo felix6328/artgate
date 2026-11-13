@@ -12,6 +12,23 @@ search:
   # 过短或过宽的查询：仍检索，但界面提示补充过滤条件
   broad_query_max_tokens: 1
   broad_query_examples: ["武器", "道具", "树", "weapon", "food", "tree", "UI"]
+  # v2 默认 hybrid；semantic 即 v1 行为（可复现）
+  retriever: hybrid          # semantic | hybrid | bm25
+  fusion: rrf
+  rrf_k: 60                  # Cormack 常用值；本轮冻结，不按测试集回改
+  candidate_k: 50            # 每路先取这么多再融合
+  expand_for_bm25: true
+  expand_for_semantic: false # 不把译名塞进 CLIP 原查询
+  router_enabled: true
+  synonyms_path: configs/synonyms_game_art.yaml
+  # 路由权重在看本轮分组结果之前冻结
+  router_weights:
+    filename_like:
+      semantic: 1.0
+      bm25: 1.5
+    descriptive:
+      semantic: 1.0
+      bm25: 1.0
 
 vlm:
   # disabled | mock | openai_compat

@@ -73,6 +73,7 @@ def api_search(
     cross_project: bool = False,
     top_k: int = 10,
     exact_id: Optional[str] = None,
+    retriever: Optional[str] = None,
 ):
     return search_text(
         q,
@@ -84,6 +85,7 @@ def api_search(
         cross_project=cross_project,
         top_k=top_k,
         exact_id=exact_id,
+        retriever=retriever,
     )
 
 
