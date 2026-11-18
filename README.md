@@ -1,5 +1,7 @@
 # ArtGate｜游戏美术资产语义检索与入库预检工作台
 
+> **已由 [ieg-artpipe](https://github.com/felix6328/ieg-artpipe) 取代。** 本仓库是早期版本，保留作过程记录；ArtPipe 改用开源游戏 0 A.D. 的真实资产和开发历史做评测，后续更新都在那边。
+
 个人项目，为投递「腾讯 IEG｜腾讯游戏管理平台产品实习生」而做。  
 **不是**腾讯或任何游戏项目组的生产系统，评测资产全部来自公开许可（Kenney CC0、Poly Haven CC0、Khronos 按模型各自许可）。
 

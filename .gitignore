@@ -23,3 +23,8 @@ hf_cache/
 data/broken/oversized/*.png
 data/broken/oversized/*.jpg
 *.egg-info/
+
+# secrets
+.env
+.env.*
+!.env.example
